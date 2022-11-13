@@ -1,0 +1,9 @@
+@import "./styles/variable.scss";
+html{
+  color:$--color-regular!important;
+}
+@media (min-width:$--breakpoint-md) {
+  html{
+    font-size: 100%;
+  }
+}

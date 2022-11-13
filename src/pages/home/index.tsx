@@ -7,8 +7,8 @@ import SearchBar from "../../components/searchBar";
 function Home() {
   return (<>
     <SearchBar />
-    <Rankings />
     <Recommend />
+    <Rankings />
   </>)
 }
 export default Home;

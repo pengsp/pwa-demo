@@ -4,11 +4,13 @@ $--color-black: #000000;
 $--color-white: #FFFFFF;
 $--color-gray: #999999;
 
-$--input-bgcolor:#f4f4f4 ;
-$--text-color-primary:$--color-black;
-$--text-color-regular:#333333;
-$--text-color-secondary:#8f8f8f; 
-$--text-color-placeholder:#a8abae;
+
+$--color-primary:#000000;
+$--color-regular:#4a4a4a;
+$--color-secondary:#8f8f8f; 
+$--color-placeholder:#a1acb3;
+
+$--input-background-color:#f4f4f4;
 /* Font Size
 -------------------------- */
 $--size-base: 1.4rem ;
@@ -39,7 +41,7 @@ $--margin-xss: $--xss;
 
 /* Height rules
 --------------------------*/
-$--height-base: 32px;
+$--height-base: 2.8rem;
 $--height-lg: 40px;
 $--height-sm: 24px;
 
