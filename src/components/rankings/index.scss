@@ -3,4 +3,56 @@
   &-container{
     color: $--color-secondary;
   }
+  &-app{
+    color: $--color-gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:$--md $--xs;
+    border-bottom: 1px solid $--color-border;
+    .app{
+      &-rank{
+        flex-basis: 30px;
+        text-align: center;
+      }
+      &-icon{
+        text-align: center;
+        padding: 0 ;
+        margin: 0 $--xs*1.5 0 $--xs;
+        border-radius: 4px;
+        overflow: hidden;
+        object-fit: contain;
+        .odd{
+          border-radius: 8px;
+          display: block;
+        }
+        .even{
+          @extend .odd;
+          border-radius: 50%;
+        }
+      }
+      &-info{
+        flex: auto;
+      }
+      &-name{
+        color: $--color-regular;
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        font-size: 1.4rem;
+        height: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      &-category{
+        font-size: 1.2rem;
+        color: $--color-gray;
+        padding: $--xs*0.5 0;
+      }
+      &-score{
+        font-size: 12px;
+      }
+    }
+  }
+
 }

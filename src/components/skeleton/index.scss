@@ -1,0 +1,8 @@
+@import "../../styles/variable";
+
+.skeleton-container{
+  background-color: $--color-light-gray;
+  width: 3rem;
+  height: 3rem;
+  border-radius:4px;
+}

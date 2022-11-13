@@ -7,7 +7,7 @@ function SearchBar() {
   const [keyword, setKeyword] = useState<string>('');
   const inputSearch = (e: any) => {
     let keyword = e.target.value;
-    console.log(e)
+    // console.log(e)
     setKeyword(keyword)
   }
   return (<div className="search-bar-container" >

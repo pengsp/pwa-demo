@@ -2,5 +2,20 @@
 .recommend{
   &-container{
     color: $--color-regular;
+    padding: $--xs;
+    border-bottom: 1px solid $--color-border;
+  }
+  &-title{
+    padding: 0 $--xs;
+    margin: 0;
+  }
+  &-apps{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  &-app{
+    width: 25%;
+    padding: $--xs;
   }
 }

@@ -5,10 +5,10 @@ import SearchBar from "../../components/searchBar";
 
 
 function Home() {
-  return (<>
+  return (<div >
     <SearchBar />
     <Recommend />
     <Rankings />
-  </>)
+  </div>)
 }
 export default Home;
