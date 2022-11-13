@@ -1,0 +1,73 @@
+/* Color
+-------------------------- */
+$--color-black: #000000;
+$--color-white: #FFFFFF;
+$--color-gray: #999999;
+
+$--input-bgcolor:#f4f4f4 ;
+$--text-color-primary:$--color-black;
+$--text-color-regular:#333333;
+$--text-color-secondary:#8f8f8f; 
+$--text-color-placeholder:#a8abae;
+/* Font Size
+-------------------------- */
+$--size-base: 1.4rem ;
+
+/* Common space
+--------------------------*/
+$--lg: 24px; 
+$--md: 16px; 
+$--sm: 12px; 
+$--xs: 8px; 
+$--xss: 4px; 
+
+/* Paddings
+--------------------------*/
+$--padding-lg: $--lg;
+$--padding-md: $--md;
+$--padding-sm: $--sm;
+$--padding-xs: $--xs;
+$--padding-xss:$--xss;
+
+/* Margins
+--------------------------*/
+$--margin-lg: $--lg;
+$--margin-md: $--md;
+$--margin-sm: $--sm;
+$--margin-xs: $--xs;
+$--margin-xss: $--xss;
+
+/* Height rules
+--------------------------*/
+$--height-base: 32px;
+$--height-lg: 40px;
+$--height-sm: 24px;
+
+/* Break-point
+--------------------------*/
+$--breakpoint-sm: 768px ;
+$--breakpoint-md: 992px ;
+$--breakpoint-lg: 1200px ;
+$--breakpoint-xl: 1920px ;
+
+$--breakpoints: (
+  'xs' : (max-width: $--breakpoint-sm - 1),
+  'sm' : (min-width: $--breakpoint-sm),
+  'md' : (min-width: $--breakpoint-md),
+  'lg' : (min-width: $--breakpoint-lg),
+  'xl' : (min-width: $--breakpoint-xl)
+);
+
+$--breakpoints-spec: (
+  'xs-only' : (max-width: $--breakpoint-sm - 1),
+  'sm-and-up' : (min-width: $--breakpoint-sm),
+  'sm-only': "(min-width: #{$--breakpoint-sm}) and (max-width: #{$--breakpoint-md - 1})",
+  'sm-and-down': (max-width: $--breakpoint-md - 1),
+  'md-and-up' : (min-width: $--breakpoint-md),
+  'md-only': "(min-width: #{$--breakpoint-md}) and (max-width: #{$--breakpoint-lg - 1})",
+  'md-and-down': (max-width: $--breakpoint-lg - 1),
+  'lg-and-up' : (min-width: $--breakpoint-lg),
+  'lg-only': "(min-width: #{$--breakpoint-lg}) and (max-width: #{$--breakpoint-xl - 1})",
+  'lg-and-down': (max-width: $--breakpoint-xl - 1),
+  'xl-only' : (min-width: $--breakpoint-xl),
+);
