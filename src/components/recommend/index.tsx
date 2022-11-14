@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
-import Skeleton from "../skeleton";
 import "./index.scss";
 
 function Recommend() {
   const [recommendAppList, setRecommendAppList] = useState<Record<string, any>[]>([]);
-
+  const [requsetResolved, setRequestResolved] = useState<boolean>(false);
   const fetchRecommendAppList = async () => {
     const response = await fetch(apis.recommend);
     const httpCode = response.status
@@ -15,6 +14,7 @@ function Recommend() {
     if (httpCode === 200) {
       const list = data?.feed.entry;
       setRecommendAppList(list);
+      setRequestResolved(true);
     } else {
       console.log("出错了")
     }
@@ -29,19 +29,26 @@ function Recommend() {
     if (recommendAppList && recommendAppList.length > 0) {
       return recommendAppList.map((app: Record<string, any>) => {
         return <div className="recommend-app" key={app.id.attributes["im:id"]}>
-          <LazyLoad >
-            <img className="recommend-app-icon" src={app['im:image'][0].label} />
-          </LazyLoad>
+          <div>
+            <LazyLoad height={100} placeholder="Loading..." >
+              <img className="recommend-app-icon" src={app['im:image'][1].label} />
+            </LazyLoad>
+          </div>
           <div className="recommend-app-name">{app['im:name'].label}</div>
           <div className="recommend-app-category">{app.category.attributes.label}</div>
         </div>
       })
     }
+    return <></>;
   }, [recommendAppList])
+
+
   return (<div className="recommend-container">
     <h5 className="recommend-title">Recommend</h5>
     <div className="recommend-apps" >
-      {recommendAppsHTML}
+      <div className="recommend-apps-inner" >
+        {recommendAppsHTML}
+      </div>
     </div>
 
   </div>)

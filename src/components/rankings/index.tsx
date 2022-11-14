@@ -7,6 +7,7 @@ import "./index.scss";
 function Rankings() {
   const [appList, setAppList] = useState<Record<string, any>>();
   const [appRating, setAppRating] = useState<Record<string, any>>();
+
   const fetchRankings = async () => {
     const response = await fetch(apis.rankings);
     const httpCode = response.status
@@ -62,6 +63,7 @@ function Rankings() {
       <div className="rate-star-ratio" style={{ "width": `${percent * 10}%` }}></div>
     </div>
   }
+
   const appListHTML = useMemo(() => {
     if (appList && appList.length > 0 && appRating) {
       return appList.map((app: any, index: number) => {
@@ -69,7 +71,7 @@ function Rankings() {
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad >
-              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} />
+              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} />
             </LazyLoad>
           </div>
           <div className="app-info">
@@ -83,7 +85,9 @@ function Rankings() {
         </div>
       })
     }
+    return <></>;
   }, [appList, appRating])
+
 
   return (<div className="rankings-container">  {appListHTML}  </div>)
 }
