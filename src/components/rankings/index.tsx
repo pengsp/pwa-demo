@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
+import LazyLoad from 'react-lazyload';
+
 import { apis } from "../../config";
 import "./index.scss";
 
@@ -70,7 +72,9 @@ function Rankings() {
         return <div className="rankings-app" key={index}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
-            <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} />
+            <LazyLoad >
+              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} />
+            </LazyLoad>
           </div>
           <div className="app-info">
             <h5 className="app-name">{app['im:name'].label}</h5>

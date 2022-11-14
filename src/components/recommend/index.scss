@@ -1,21 +1,23 @@
 @import "../../styles/variable";
-.recommend{
-  &-container{
+  .recommend-container{
     color: $--color-regular;
     padding: $--xs;
     border-bottom: 1px solid $--color-border;
+    .recommend{
+      &-title{
+        padding: 0 $--xs;
+        margin: 0;
+        font-size: 1.6rem;
+      }
+      &-apps{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      &-app{
+        width: 25%;
+        padding: $--xs;
+      }
+    }
   }
-  &-title{
-    padding: 0 $--xs;
-    margin: 0;
-  }
-  &-apps{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  &-app{
-    width: 25%;
-    padding: $--xs;
-  }
-}
+
