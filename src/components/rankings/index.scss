@@ -10,19 +10,20 @@
     align-items: center;
     padding:$--md $--xs;
     border-bottom: 1px solid $--color-border;
+    margin-left: 1rem;
     .app{
       &-rank{
         flex-basis: 30px;
-        text-align: center;
       }
       &-icon{
         text-align: center;
         padding: 0 ;
-        margin: 0 $--xs*1.5 0 $--xs;
+        margin: 0 1.5rem 0 0;
         border-radius: 4px;
         overflow: hidden;
         object-fit: contain;
         .odd{
+          width: 6rem;
           border-radius: 8px;
           display: block;
         }
@@ -51,6 +52,20 @@
       }
       &-score{
         font-size: 12px;
+        display: flex;
+        transform:scale(0.8);
+        transform-origin: left;
+        .rate-star-container{
+          background:url("../../assets/images/star-line.svg") repeat-x;
+          height: 16px;
+          width: 80px;
+          overflow: hidden;
+          margin-right: 6px;
+          .rate-star-ratio{
+            height: 16px;
+            background:url("../../assets/images/star.svg") repeat-x #fff;
+          }
+        }
       }
     }
   }
