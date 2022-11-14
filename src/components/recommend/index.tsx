@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
 import Skeleton from "../skeleton";
 import "./index.scss";
@@ -20,24 +21,27 @@ function Recommend() {
     console.log(data)
   }
 
-
-
   useEffect(() => {
     fetchRecommendAppList()
   }, [])
+
+  const recommendAppsHTML = useMemo(() => {
+    if (recommendAppList && recommendAppList.length > 0) {
+      return recommendAppList.map((app: Record<string, any>) => {
+        return <div className="recommend-app" key={app.id.attributes["im:id"]}>
+          <LazyLoad >
+            <img className="recommend-app-icon" src={app['im:image'][0].label} />
+          </LazyLoad>
+          <div className="recommend-app-name">{app['im:name'].label}</div>
+          <div className="recommend-app-category">{app.category.attributes.label}</div>
+        </div>
+      })
+    }
+  }, [recommendAppList])
   return (<div className="recommend-container">
     <h5 className="recommend-title">Recommend</h5>
     <div className="recommend-apps" >
-
-      {recommendAppList.map((app: any, index: number) => {
-        return <div className="recommend-app" key={index}>
-          <div className="recommend-icon">
-            {/* <img src={app} /> */}
-          </div>
-
-        </div>
-      })}
-
+      {recommendAppsHTML}
     </div>
 
   </div>)

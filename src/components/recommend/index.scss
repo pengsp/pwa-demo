@@ -3,20 +3,44 @@
     color: $--color-regular;
     padding: $--xs;
     border-bottom: 1px solid $--color-border;
+    overflow: hidden;
     .recommend{
       &-title{
-        padding: 0 $--xs;
+        padding: 4px $--xs;
         margin: 0;
         font-size: 1.6rem;
       }
       &-apps{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        &::-webkit-scrollbar {
+          display: none;
+        }
       }
       &-app{
-        width: 25%;
+        width: 29%;
         padding: $--xs;
+        flex-shrink: 0;
+        text-align: center;
+        &-icon{
+          width:100%;
+          border-radius: 8px;
+        }
+        &-name{
+          height: 2rem;    
+          font-size: 1.4rem;
+          font-weight: 500;
+          margin: 0.2rem 0.4rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        &-category{
+          color: $--color-gray;
+        }
       }
     }
   }

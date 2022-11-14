@@ -32,22 +32,18 @@ function Rankings() {
       const response = await fetch(lokkipApi);
       const httpCode = response.status
       const data = await response.json();
-      console.log('fetchLookup', data);
+      // console.log('fetchLookup', data);
       if (httpCode === 200) {
         const lookupRes = data?.results;
         let appRatings: Record<string, any> = {};
         lookupRes.map((item: Record<string, any>) => {
           let { trackId, averageUserRating, userRatingCount } = item;
-          console.log({
-            averageUserRating,
-            userRatingCount
-          })
           appRatings[trackId] = {
             averageUserRating,
             userRatingCount
           }
         })
-        console.log('appRatings', appRatings);
+        // console.log('appRatings', appRatings);
         setAppRating(appRatings)
       } else {
         console.log("出错了")
@@ -66,7 +62,7 @@ function Rankings() {
       <div className="rate-star-ratio" style={{ "width": `${percent * 10}%` }}></div>
     </div>
   }
-  const appListFragment = useMemo(() => {
+  const appListHTML = useMemo(() => {
     if (appList && appList.length > 0 && appRating) {
       return appList.map((app: any, index: number) => {
         return <div className="rankings-app" key={index}>
@@ -89,6 +85,6 @@ function Rankings() {
     }
   }, [appList, appRating])
 
-  return (<div className="rankings-container">  {appListFragment}  </div>)
+  return (<div className="rankings-container">  {appListHTML}  </div>)
 }
 export default Rankings;
