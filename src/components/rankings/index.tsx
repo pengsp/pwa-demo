@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
+import Skeleton from "../skeleton";
 import "./index.scss";
 
 function Rankings() {
 
   const [appList, setAppList] = useState<Record<string, any>>();
   const [appRating, setAppRating] = useState<Record<string, any>>();
+  const [appListHTML, setAppListHTML] = useState<any>();
 
   const fetchRankings = async () => {
     const response = await fetch(apis.rankings);
@@ -60,10 +62,11 @@ function Rankings() {
     </div>
   }
 
-  const appListHTML = useMemo(() => {
+  useEffect(() => {
+    let html;
     if (appList && appList.length > 0 && appRating) {
-      return appList.map((app: any, index: number) => {
-        return <div className="rankings-app" key={index}>
+      html = appList.map((app: any, index: number) => {
+        return <div className="rankings-app" key={app.id.attributes["im:id"]}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad >
@@ -81,10 +84,30 @@ function Rankings() {
         </div>
       })
     }
-    return <></>;
+    setAppListHTML(html);
   }, [appList, appRating])
 
-
-  return (<div className="rankings-container">  {appListHTML}  </div>)
+  const AppListHTMLSkeleton = () => {
+    return (<div>{
+      Array(10).fill(1).map((_: any, index: number) => {
+        return <div className="rankings-app" key={index}>
+          <div className="app-rank">{index + 1}</div>
+          <div className="app-icon">
+            <Skeleton className={`app-icon-skeleton ${index % 2 === 0 ? "odd" : "even"}`} />
+          </div>
+          <div className="app-info">
+            <h5 className="app-name"><Skeleton className="app-name-skeleton" /></h5>
+            <div className="app-category"><Skeleton className="app-category-skeleton" /></div>
+            <div className="app-score">
+              <Skeleton className="app-score-skeleton" />
+            </div>
+          </div>
+        </div>
+      })
+    }</div>)
+  }
+  return (<div className="rankings-container">
+    {appListHTML ? appListHTML : <AppListHTMLSkeleton />}
+  </div>)
 }
 export default Rankings;
