@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import LazyLoad from 'react-lazyload';
-
 import { apis } from "../../config";
 import "./index.scss";
 
 function Rankings() {
+
   const [appList, setAppList] = useState<Record<string, any>>();
   const [appRating, setAppRating] = useState<Record<string, any>>();
 
@@ -21,10 +21,10 @@ function Rankings() {
       })
       fetchLookup(ids);
       setAppList(list);
+      window.localStorage.setItem('rankings', JSON.stringify(list));
     } else {
       console.log("出错了")
     }
-    console.log(data)
   }
   const fetchLookup = async (ids: string[]) => {
     if (ids.length > 0) {
@@ -33,7 +33,6 @@ function Rankings() {
       const response = await fetch(lokkipApi);
       const httpCode = response.status
       const data = await response.json();
-      // console.log('fetchLookup', data);
       if (httpCode === 200) {
         const lookupRes = data?.results;
         let appRatings: Record<string, any> = {};
@@ -44,21 +43,18 @@ function Rankings() {
             userRatingCount
           }
         })
-        // console.log('appRatings', appRatings);
         setAppRating(appRatings)
       } else {
         console.log("出错了")
       }
-      console.log(data)
     }
-
   }
 
   useEffect(() => {
     fetchRankings()
   }, [])
 
-  const RateStar = ({ percent }: { percent: number }) => {
+  const RateStar = ({ percent }: { percent: number }): JSX.Element => {
     return <div className="rate-star-container">
       <div className="rate-star-ratio" style={{ "width": `${percent * 10}%` }}></div>
     </div>
