@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
+import { setDefaultImg } from "../../utils";
 import Skeleton from "../skeleton";
 import "./index.scss";
+
 
 function Rankings() {
 
@@ -14,9 +16,14 @@ function Rankings() {
     const response = await fetch(apis.rankings);
     const httpCode = response.status
     const data = await response.json()
+
     if (httpCode === 200) {
-      const list = data?.feed.entry;
+      let list = data?.feed.entry;
       let ids: string[] = [];
+      // console.log(list)
+      if (!(list instanceof Array)) {
+        list = [list];
+      }
       list.map((app: Record<string, any>) => {
         let id = app.id.attributes['im:id']
         ids.push(id)
@@ -26,16 +33,21 @@ function Rankings() {
       setAppList(list);
       window.localStorage.setItem('rankings', JSON.stringify(list));
     } else {
-      console.log("出错了")
+      console.log("fetch failed")
     }
   }, [])
+
   const fetchLookup = async (ids: string[]) => {
     if (ids.length > 0) {
       let lookupIds = ids.join(',');
       let lokkipApi = `${apis.lookup}${lookupIds}`;
       const response = await fetch(lokkipApi);
+      // console.log(response)
+
       const httpCode = response.status
       const data = await response.json();
+      // console.log(data)
+
       if (httpCode === 200) {
         const lookupRes = data?.results;
         let appRatings: Record<string, any> = {};
@@ -49,7 +61,7 @@ function Rankings() {
         })
         setAppRating(appRatings)
       } else {
-        console.log("出错了")
+        console.log("fetch failed")
       }
     }
   }
@@ -64,6 +76,7 @@ function Rankings() {
     </div>
   }
 
+
   useEffect(() => {
     let html: any = null;
     if (appList && appList.length > 0 && appRating) {
@@ -71,8 +84,8 @@ function Rankings() {
         return (<div className="rankings-app" key={app.id.attributes["im:id"]}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
-            <LazyLoad >
-              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} alt="" />
+            <LazyLoad placeholder={<>123</>} offset={120}>
+              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
             </LazyLoad>
           </div>
           <div className="app-info">

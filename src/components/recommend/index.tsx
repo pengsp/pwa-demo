@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import Skeleton from "../skeleton";
 import { apis } from "../../config";
+import { setDefaultImg } from "../../utils";
 import "./index.scss";
 
 function Recommend() {
@@ -17,7 +18,7 @@ function Recommend() {
       setRecommendAppList(list);
       localStorage.setItem('recommend-apps', JSON.stringify(list));
     } else {
-      console.log("出错了")
+      console.log("fetch failed")
     }
   }
 
@@ -32,7 +33,7 @@ function Recommend() {
         return <div className="recommend-app" key={`recommend-app-${app.id.attributes["im:id"]}`}>
           <div>
             <LazyLoad height={100} placeholder="Loading..." >
-              <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" />
+              <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
             </LazyLoad>
           </div>
           <div className="recommend-app-name">{app['im:name'].label}</div>
