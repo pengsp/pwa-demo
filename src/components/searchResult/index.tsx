@@ -1,8 +1,3 @@
-
-import { useCallback, useEffect, useState } from "react";
-import { useDebounce } from "../../hooks/useDebounce";
-import { IconSearch, IconClose, IconLeftArrow } from "../icons";
-
 import "./index.scss";
 interface SearchResultProps {
   data: Record<string, any>[],
@@ -14,13 +9,12 @@ function SearchResult({ data, keywords }: SearchResultProps) {
     {keywords ? <div className="result-length">查找到 {data.length} 条数据</div>
       : <div className="result-length">请输入关键词</div>
     }
-    {/* <div className="result-length">查找到 {data.length} 条数据</div> */}
     {
       data.map((app: Record<string, any>, index: number) => {
         return <div className="rankings-app" key={`search-result-${app.id.attributes["im:id"]}`}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
-            <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} />
+            <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} alt="" />
           </div>
           <div className="app-info">
             <h5 className="app-name">{app['im:name'].label}</h5>

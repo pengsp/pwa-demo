@@ -1,7 +1,7 @@
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDebounce } from "../../hooks/useDebounce";
-import { IconSearch, IconClose, IconLeftArrow } from "../icons";
+import { IconSearch, IconClose } from "../icons";
 
 import "./index.scss";
 interface SearchBarProps {
@@ -15,7 +15,7 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
 
   useEffect(() => {
     setPageState(inSearchState)
-  }, [inSearchState])
+  }, [inSearchState, setPageState])
 
   const searchApps = function (keywords: string) {
     if (keywords === "") {
@@ -35,7 +35,7 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
     if (recommendApps instanceof Array) {
       apps.push(...recommendApps)
     }
-    console.log('apps-1', apps)
+    // console.log('apps-1', apps)
     let hits: any[] = [];
     let result = apps.filter((app: Record<string, any>) => {
       let id = app.id.attributes["im:id"];
@@ -49,8 +49,9 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
           return app;
         }
       }
+      return null;
     })
-    console.log('search res', result)
+    // console.log('search res', result)
     updateSearchResult(result, keywords);
     // setSearchResult(result)
   }

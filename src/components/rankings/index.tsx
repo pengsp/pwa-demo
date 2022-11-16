@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
 import Skeleton from "../skeleton";
@@ -10,7 +10,7 @@ function Rankings() {
   const [appRating, setAppRating] = useState<Record<string, any>>();
   const [appListHTML, setAppListHTML] = useState<any>();
 
-  const fetchRankings = async () => {
+  const fetchRankings = useCallback(async () => {
     const response = await fetch(apis.rankings);
     const httpCode = response.status
     const data = await response.json()
@@ -20,6 +20,7 @@ function Rankings() {
       list.map((app: Record<string, any>) => {
         let id = app.id.attributes['im:id']
         ids.push(id)
+        return app;
       })
       fetchLookup(ids);
       setAppList(list);
@@ -27,7 +28,7 @@ function Rankings() {
     } else {
       console.log("出错了")
     }
-  }
+  }, [])
   const fetchLookup = async (ids: string[]) => {
     if (ids.length > 0) {
       let lookupIds = ids.join(',');
@@ -44,6 +45,7 @@ function Rankings() {
             averageUserRating,
             userRatingCount
           }
+          return item;
         })
         setAppRating(appRatings)
       } else {
@@ -54,7 +56,7 @@ function Rankings() {
 
   useEffect(() => {
     fetchRankings()
-  }, [])
+  }, [fetchRankings])
 
   const RateStar = ({ percent }: { percent: number }): JSX.Element => {
     return <div className="rate-star-container">
@@ -66,11 +68,11 @@ function Rankings() {
     let html: any = null;
     if (appList && appList.length > 0 && appRating) {
       html = appList.map((app: any, index: number) => {
-        return <div className="rankings-app" key={app.id.attributes["im:id"]}>
+        return (<div className="rankings-app" key={app.id.attributes["im:id"]}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad >
-              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} />
+              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} alt="" />
             </LazyLoad>
           </div>
           <div className="app-info">
@@ -81,7 +83,7 @@ function Rankings() {
               <span> ({appRating[app.id.attributes['im:id']].userRatingCount})</span>
             </div>
           </div>
-        </div>
+        </div>)
       })
     }
     setAppListHTML(html);

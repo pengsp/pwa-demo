@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import Skeleton from "../skeleton";
 import { apis } from "../../config";
@@ -32,7 +32,7 @@ function Recommend() {
         return <div className="recommend-app" key={`recommend-app-${app.id.attributes["im:id"]}`}>
           <div>
             <LazyLoad height={100} placeholder="Loading..." >
-              <img className="recommend-app-icon" src={app['im:image'][1].label} />
+              <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" />
             </LazyLoad>
           </div>
           <div className="recommend-app-name">{app['im:name'].label}</div>

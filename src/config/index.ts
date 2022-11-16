@@ -3,5 +3,5 @@ export const apis = {
   "rankings": "https://itunes.apple.com/hk/rss/topfreeapplications/limit=100/json",
   "lookup": "https://itunes.apple.com/hk/lookup?id="
 }
-
+//eslint-disable-next-line 
 export default { apis }
