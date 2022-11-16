@@ -1,0 +1,13 @@
+@import "../../styles/variable";
+.search-result{
+  &-container{
+    .result{
+      &-length{
+        background-color:$--color-light-gray ;
+        text-align: center;
+        margin: $--xs;
+        padding: $--xs;
+      }
+    }
+  }
+}

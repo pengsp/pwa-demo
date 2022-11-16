@@ -3,7 +3,10 @@
   &-bar-container{
     // border-bottom:1px solid $--color-border;
     padding:0.8rem;
-    position: relative;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
     &::after{
       background-color: $--color-border;
       height: 1px;
@@ -16,12 +19,23 @@
       left: 0;
     }
   }
+  &-bar-wrap{
+    display: flex;
+    align-items: center;
+  }
+  &-cancel{
+    flex-basis: 0;
+    transition: all 1s ease-in-out 0.5s;
+    display: none;
+  }
+
   &-bar{
     background-color: $--input-background-color;
     border-radius: $--xs*1.25;
     display: flex;
     align-items: center;
     padding: 0.4rem 0.8rem;
+    flex-grow: 1;
     &-input{
       border: 0;
       width: 100%;
@@ -45,5 +59,17 @@
       }
     }
   }
+  &-action{
+    flex-basis: 42px;
+    text-align: center;
+    font-size:1.2rem;
+    padding-left: 0.4rem;
+    border-left: 1px solid $--color-placeholder;
+  }
 
+}
+.in-search-state  .search-cancel{
+  flex-basis: 28px;
+  display: block;
+  transition: all 1s ease-in-out 0.5s;
 }

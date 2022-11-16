@@ -63,7 +63,7 @@ function Rankings() {
   }
 
   useEffect(() => {
-    let html;
+    let html: any = null;
     if (appList && appList.length > 0 && appRating) {
       html = appList.map((app: any, index: number) => {
         return <div className="rankings-app" key={app.id.attributes["im:id"]}>
