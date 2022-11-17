@@ -1,74 +1,17 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
-import { apis } from "../../config";
 import { setDefaultImg } from "../../utils";
 import Skeleton from "../skeleton";
 import Spin from "../spin";
 import "./index.scss";
 
-const cacheVersion = process.env.REACT_APP_CACHE_VERSION;
-function Rankings() {
+interface RankingsProps {
+  appList: Record<string, any>[],
+  appRating: Record<string, any>
+}
 
-  const [appList, setAppList] = useState<Record<string, any>>();
-  const [appRating, setAppRating] = useState<Record<string, any>>();
+function Rankings({ appList, appRating }: RankingsProps) {
   const [appListHTML, setAppListHTML] = useState<any>();
-  const fetchRankings = useCallback(async () => {
-    const response = await fetch(apis.rankings);
-    const httpCode = response.status
-    const data = await response.json()
-
-    if (httpCode === 200) {
-      let list = data?.feed.entry;
-      let ids: string[] = [];
-      // console.log(list)
-      if (!(list instanceof Array)) {
-        list = [list];
-      }
-      list.map((app: Record<string, any>) => {
-        let id = app.id.attributes['im:id']
-        ids.push(id)
-        return app;
-      })
-      fetchLookup(ids);
-      setAppList(list);
-      window.localStorage.setItem('rankings', JSON.stringify(list));
-    } else {
-      console.log("fetch failed")
-    }
-  }, [])
-
-  const fetchLookup = async (ids: string[]) => {
-    if (ids.length > 0) {
-      let lookupIds = ids.join(',');
-      let lokkipApi = `${apis.lookup}${lookupIds}&v=${cacheVersion}`;
-      const response = await fetch(lokkipApi);
-      // console.log(response)
-
-      const httpCode = response.status
-      const data = await response.json();
-      // console.log(data)
-
-      if (httpCode === 200) {
-        const lookupRes = data?.results;
-        let appRatings: Record<string, any> = {};
-        lookupRes.map((item: Record<string, any>) => {
-          let { trackId, averageUserRating, userRatingCount } = item;
-          appRatings[trackId] = {
-            averageUserRating,
-            userRatingCount
-          }
-          return item;
-        })
-        setAppRating(appRatings)
-      } else {
-        console.log("fetch failed")
-      }
-    }
-  }
-
-  useEffect(() => {
-    fetchRankings()
-  }, [fetchRankings])
 
   const RateStar = ({ percent }: { percent: number }): JSX.Element => {
     return <div className="rate-star-container">
@@ -76,12 +19,11 @@ function Rankings() {
     </div>
   }
 
-
   useEffect(() => {
     let html: any = null;
     if (appList && appList.length > 0 && appRating) {
       html = appList.map((app: any, index: number) => {
-        return (<div className="rankings-app" key={app.id.attributes["im:id"]}>
+        return (<div className="rankings-app" key={app?.id?.attributes["im:id"]}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad placeholder={<Spin />} offset={120}>
@@ -90,10 +32,10 @@ function Rankings() {
           </div>
           <div className="app-info">
             <h5 className="app-name">{app['im:name'].label}</h5>
-            <div className="app-category">{app.category.attributes.label}</div>
+            <div className="app-category">{app?.category?.attributes?.label}</div>
             <div className="app-score">
-              <RateStar percent={appRating[app.id.attributes['im:id']].averageUserRating} />
-              <span> ({appRating[app.id.attributes['im:id']].userRatingCount})</span>
+              <RateStar percent={appRating[app?.id?.attributes['im:id']]?.averageUserRating} />
+              <span> ({appRating[app?.id?.attributes['im:id']]?.userRatingCount})</span>
             </div>
           </div>
         </div>)

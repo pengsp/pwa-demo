@@ -1,44 +1,28 @@
 import { useEffect, useState } from "react";
 import LazyLoad from 'react-lazyload';
 import Skeleton from "../skeleton";
-import { apis } from "../../config";
 import { setDefaultImg } from "../../utils";
-import "./index.scss";
 import Spin from "../spin";
+import "./index.scss";
 
-function Recommend() {
-  const [recommendAppList, setRecommendAppList] = useState<Record<string, any>[]>([]);
+interface RecommendProps {
+  recommendAppList: Record<string, any>[]
+}
+
+function Recommend({ recommendAppList }: RecommendProps) {
   const [recommendAppsHTML, setRecommendAppsHTML] = useState<any>();
-
-  const fetchRecommendAppList = async () => {
-    const response = await fetch(apis.recommend);
-    const httpCode = response.status
-    const data = await response.json();
-    if (httpCode === 200) {
-      const list = data?.feed.entry;
-      setRecommendAppList(list);
-      localStorage.setItem('recommend-apps', JSON.stringify(list));
-    } else {
-      console.log("fetch failed")
-    }
-  }
-
-  useEffect(() => {
-    fetchRecommendAppList()
-  }, [])
-
   useEffect(() => {
     let html: any = null;
     if (recommendAppList && recommendAppList.length > 0) {
       html = recommendAppList.map((app: Record<string, any>) => {
-        return <div className="recommend-app" key={`recommend-app-${app.id.attributes["im:id"]}`}>
+        return <div className="recommend-app" key={`recommend-app-${app?.id?.attributes["im:id"]}`}>
           <div>
             <LazyLoad height={100} placeholder={<Spin />} >
               <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
             </LazyLoad>
           </div>
           <div className="recommend-app-name">{app['im:name'].label}</div>
-          <div className="recommend-app-category">{app.category.attributes.label}</div>
+          <div className="recommend-app-category">{app?.category?.attributes?.label}</div>
         </div>
       })
     }
