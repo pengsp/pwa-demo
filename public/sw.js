@@ -11,6 +11,8 @@ self.addEventListener('install', function(e) {
        }).then(function() {
         // console.log('skip waiting!')
         return self.skipWaiting()
+       }).catch(err=>{
+        console.log("err",err)
        })
    )
 })

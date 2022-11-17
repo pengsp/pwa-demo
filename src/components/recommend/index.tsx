@@ -47,7 +47,7 @@ function Recommend() {
 
   const RecommendAppListSkeleton = () => {
     return (<>
-      {Array(4).fill(1).map((_: any, index: number) => {
+      {Array(10).fill(1).map((_: any, index: number) => {
         return <div className="recommend-app" key={`recommend-app-skeleton-${index}`}>
           <Skeleton className="recommend-app-icon-skeleton" />
           <Skeleton className="recommend-app-name-skeleton" />

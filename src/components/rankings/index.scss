@@ -13,8 +13,9 @@
     margin-left: 1rem;
     .app{
       &-rank{
-        flex-basis: 30px;
+        flex-basis: 3rem;
         font-size: 1.4rem;
+        flex-shrink: 0
       }
       &-icon{
         text-align: center;
@@ -22,7 +23,7 @@
         margin: 0 1.5rem 0 0;
         border-radius: 4px;
         overflow: hidden;
-        flex-basis: 6rem;
+        width: 6rem;
         flex-shrink:0;
         &-skeleton{
           height: 6rem;
