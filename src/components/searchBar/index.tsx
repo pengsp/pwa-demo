@@ -11,7 +11,6 @@ interface SearchBarProps {
 function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
   const [inSearchState, setInSearchState] = useState<boolean>(false);
   const [keywords, setKeywords] = useState<string>('');
-  // const [searchResult, setSearchResult] = useState<Record<string, any>[]>([]);
 
   useEffect(() => {
     setPageState(inSearchState)
@@ -19,7 +18,6 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
 
   const searchApps = function (keywords: string) {
     if (keywords === "") {
-      // setSearchResult([]);
       updateSearchResult([]);
       return;
     }
@@ -35,7 +33,6 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
     if (recommendApps instanceof Array) {
       apps.push(...recommendApps)
     }
-    // console.log('apps-1', apps)
     let hits: any[] = [];
     let result = apps.filter((app: Record<string, any>) => {
       let id = app.id.attributes["im:id"];
@@ -51,15 +48,12 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
       }
       return null;
     })
-    // console.log('search res', result)
     updateSearchResult(result, keywords);
-    // setSearchResult(result)
   }
   const searchAppsDebounce = useDebounce(searchApps, 300)
 
   const resetSearch = () => {
     setKeywords('');
-    // setSearchResult([]);
     updateSearchResult([])
   }
 
@@ -76,7 +70,6 @@ function SearchBar({ updateSearchResult, setPageState }: SearchBarProps) {
 
   return (<div className="search-bar-container" >
     <div className={`search-bar-wrap ${inSearchState ? "in-search-state" : ""}`}>
-      {/* <div className="search-cancel"><IconLeftArrow className="search-cancel-icon" width={32} height={32} onClick={() => setInSearchState(false)} /></div> */}
       <div className="search-bar">
         <div className="search-icon-wrap"><IconSearch className="search-icon" /></div>
         <input className="search-bar-input" placeholder="Search..." value={keywords} onFocus={() => setInSearchState(true)} onChange={inputSearch} maxLength={32} />
