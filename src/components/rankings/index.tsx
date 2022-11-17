@@ -6,13 +6,12 @@ import Skeleton from "../skeleton";
 import Spin from "../spin";
 import "./index.scss";
 
-
+const cacheVersion = process.env.REACT_APP_CACHE_VERSION;
 function Rankings() {
 
   const [appList, setAppList] = useState<Record<string, any>>();
   const [appRating, setAppRating] = useState<Record<string, any>>();
   const [appListHTML, setAppListHTML] = useState<any>();
-
   const fetchRankings = useCallback(async () => {
     const response = await fetch(apis.rankings);
     const httpCode = response.status
@@ -41,7 +40,7 @@ function Rankings() {
   const fetchLookup = async (ids: string[]) => {
     if (ids.length > 0) {
       let lookupIds = ids.join(',');
-      let lokkipApi = `${apis.lookup}${lookupIds}`;
+      let lokkipApi = `${apis.lookup}${lookupIds}&v=${cacheVersion}`;
       const response = await fetch(lokkipApi);
       // console.log(response)
 

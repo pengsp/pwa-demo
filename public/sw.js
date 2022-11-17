@@ -20,7 +20,7 @@ self.addEventListener('install', function(e) {
 self.addEventListener('fetch', function(e) {
   if((e.request.url.indexOf('http') === 0)){ 
     e.respondWith(
-      caches.match(e.request)
+      caches.match(e.request,{ignoreSearch:true})
       .then(function(response) {
         if (!!response) {
           // console.log('using fetch cache for:', e.request.url)
