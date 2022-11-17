@@ -3,6 +3,7 @@ import LazyLoad from 'react-lazyload';
 import { apis } from "../../config";
 import { setDefaultImg } from "../../utils";
 import Skeleton from "../skeleton";
+import Spin from "../spin";
 import "./index.scss";
 
 
@@ -84,7 +85,7 @@ function Rankings() {
         return (<div className="rankings-app" key={app.id.attributes["im:id"]}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
-            <LazyLoad placeholder={<>123</>} offset={120}>
+            <LazyLoad placeholder={<Spin />} offset={120}>
               <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
             </LazyLoad>
           </div>

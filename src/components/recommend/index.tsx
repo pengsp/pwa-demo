@@ -4,6 +4,7 @@ import Skeleton from "../skeleton";
 import { apis } from "../../config";
 import { setDefaultImg } from "../../utils";
 import "./index.scss";
+import Spin from "../spin";
 
 function Recommend() {
   const [recommendAppList, setRecommendAppList] = useState<Record<string, any>[]>([]);
@@ -32,7 +33,7 @@ function Recommend() {
       html = recommendAppList.map((app: Record<string, any>) => {
         return <div className="recommend-app" key={`recommend-app-${app.id.attributes["im:id"]}`}>
           <div>
-            <LazyLoad height={100} placeholder="Loading..." >
+            <LazyLoad height={100} placeholder={<Spin />} >
               <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
             </LazyLoad>
           </div>
