@@ -1,4 +1,8 @@
+import LazyLoad from 'react-lazyload';
+import { setDefaultImg } from "../../utils";
+import Spin from "../spin";
 import "./index.scss";
+
 interface SearchResultProps {
   data: Record<string, any>[],
   keywords?: string | undefined
@@ -14,7 +18,9 @@ function SearchResult({ data, keywords }: SearchResultProps) {
         return <div className="rankings-app" key={`search-result-${app.id.attributes["im:id"]}`}>
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
-            <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} alt="" />
+            <LazyLoad placeholder={<Spin />} >
+              <img className={index % 2 === 0 ? "odd" : "even"} src={app['im:image'][0].label} alt="" onError={(e) => setDefaultImg(e)} />
+            </LazyLoad>
           </div>
           <div className="app-info">
             <h5 className="app-name">{app['im:name'].label}</h5>
