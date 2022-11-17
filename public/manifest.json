@@ -2,8 +2,16 @@
   "short_name": "PSP",
   "name": "PSP demo",
   "icons": [{
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "favicon16.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }, {
+      "src": "favicon32.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }, {
+      "src": "favicon48.ico",
+      "sizes": "48x48",
       "type": "image/x-icon"
     },
     {
