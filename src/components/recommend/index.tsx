@@ -15,7 +15,7 @@ function Recommend({ recommendAppList }: RecommendProps) {
     let html: any = null;
     if (recommendAppList && recommendAppList.length > 0) {
       html = recommendAppList.map((app: Record<string, any>) => {
-        return <div className="recommend-app" key={`recommend-app-${app?.id?.attributes["im:id"]}`}>
+        return <div className="recommend-app" key={`recommend-app-${app?.id?.attributes["im:id"]}`} role="recommend-app">
           <div>
             <LazyLoad height={100} placeholder={<Spin />} >
               <img className="recommend-app-icon" src={app['im:image'][1].label} alt="" onError={(e) => setDefaultImg(e)} />
@@ -32,7 +32,7 @@ function Recommend({ recommendAppList }: RecommendProps) {
   const RecommendAppListSkeleton = () => {
     return (<>
       {Array(10).fill(1).map((_: any, index: number) => {
-        return <div className="recommend-app" key={`recommend-app-skeleton-${index}`}>
+        return <div className="recommend-app" key={`recommend-app-skeleton-${index}`} role="recommend-app-skeleton">
           <Skeleton className="recommend-app-icon-skeleton" />
           <Skeleton className="recommend-app-name-skeleton" />
           <Skeleton className="recommend-app-category-skeleton" />
