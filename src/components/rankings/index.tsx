@@ -23,7 +23,7 @@ function Rankings({ appList, appRating }: RankingsProps) {
     let html: any = null;
     if (appList && appList.length > 0 && appRating) {
       html = appList.map((app: any, index: number) => {
-        return (<div className="rankings-app" key={app?.id?.attributes["im:id"]}>
+        return (<div className="rankings-app" key={app?.id?.attributes["im:id"]} role="rankings-app">
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad placeholder={<Spin />} offset={120}>
@@ -47,7 +47,7 @@ function Rankings({ appList, appRating }: RankingsProps) {
   const AppListHTMLSkeleton = () => {
     return (<div>{
       Array(10).fill(1).map((_: any, index: number) => {
-        return <div className="rankings-app" key={index}>
+        return <div className="rankings-app" key={index} role="rankings-app-skeleton">
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <Skeleton className={`app-icon-skeleton ${index % 2 === 0 ? "odd" : "even"}`} />

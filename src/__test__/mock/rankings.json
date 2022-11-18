@@ -1,0 +1,931 @@
+[{
+    "im:name": {
+      "label": "居安抗疫"
+    },
+    "im:image": [{
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/5b/b9/b45bb926-a2a0-2f49-562f-3f8baea1958c/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/5b/b9/b45bb926-a2a0-2f49-562f-3f8baea1958c/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/5b/b9/b45bb926-a2a0-2f49-562f-3f8baea1958c/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "「居安抗疫」流動應用程式使用大數據分析及人工智能技術，配合電子手環，在不侵犯個人私隱的前提下確定受檢疫人士在檢疫期間留在指定的居所。當流動應用程式發現被檢疫人士的位置有可疑，會即時跟進。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Office of the Government CIO of Hong Kong Special Administrative Region"
+    },
+    "title": {
+      "label": "居安抗疫 - Office of the Government Chief Information Officer, Hong Kong SAR Government"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%B1%85%E5%AE%89%E6%8A%97%E7%96%AB/id1499780720?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/94/9c/7c949c3d-9504-2578-e12a-45bb6b2f5651/e534081a-9c53-4eb3-90f5-3d077e8a5188_Screen-5.5-1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%B1%85%E5%AE%89%E6%8A%97%E7%96%AB/id1499780720?uo=2",
+      "attributes": {
+        "im:id": "1499780720",
+        "im:bundleId": "hk.gov.ogcio.EQuaratine"
+      }
+    },
+    "im:artist": {
+      "label": "Office of the Government Chief Information Officer, Hong Kong SAR Government",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/office-of-the-government-chief-information-officer/id426069050?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6013",
+        "term": "Health & Fitness",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E5%81%A5%E5%BA%B7%E8%88%87%E5%81%A5%E8%BA%AB/id6013?uo=2",
+        "label": "健康與健身"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-03-17T00:00:00-07:00",
+      "attributes": {
+        "label": "2020年03月17日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "HA Go"
+    },
+    "im:image": [{
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/81/5f/b4815f38-8aa9-a20a-6a24-51a64b7731fc/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/81/5f/b4815f38-8aa9-a20a-6a24-51a64b7731fc/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/81/5f/b4815f38-8aa9-a20a-6a24-51a64b7731fc/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "全新一站式醫院管理局手機程式「HA Go」，綜合多個醫管局應用程式，加設貼心新功能，讓病人能更有效管理就醫安排及護理健康。「HA Go」提供多項功能，例如：\n•\t預約紀錄\n病人可查詢過去一年和未來的診症紀錄。\n\n•\t預約通(預約專科門診新症)\n市民可透過此平台，遞交下列專科門診新症預約的申請，包括內科、心胸外科、外科、耳鼻喉科、兒科、骨科、神經外科、眼科、產科、婦科、麻醉科(痛症科門診)和臨床腫瘤科。\n\n•\t繳費\n病人可透過此平台繳付醫療費用及查閱賬單。此平台也提供其他支付選項，包括「掃描付款」和「顯示便利店付款條碼」。\n\n•\t康復\n病人可透過此程式，根據治療師處方設計的康復訓練方案（影片、遊戲等多媒體功能），在家中或社區隨時隨地進行康復練習。\n\n•\t藥物\n病人可透過此程式，輕易找到配藥紀錄、藥物詳細資訊和過敏紀錄。\n\n•\t自我管理\r\n病人可透過此平台，管理自我檢測項目。我的健康中的的自我管理功能更可連結健康App。病人從而獲取並匯入相關健康數據到自我管理。\r\n病人可選擇匯入以下健康數據：\r\n-       血壓\r\n-       心跳\r\n-       血糖\r\n-       體重\r\n-       體溫\r\n病人亦可以隨時於裝置上更改權限設定。\r\n\n\n「HA Go」將陸續推出新功能。\n「HA Go」提供中文及英文版本。\n\n \"HA Go\" is a new one-stop app developed by the Hospital Authority (HA) integrating several HA apps with new useful features and functions. HA Go facilitates patients to manage healthcare more effectively at their fingertips.  The following examples are features now covered by \"HA Go\" :  \n•\tMy Appointments\nPatient can review upcoming appointments and attendance records in the past one year. \n\n•\tBookHA (Book Specialist Outpatient Clinic) \nHA Go provides a platform for the public to submit application for Specialist Outpatient Clinic (SOPC) new case appointment.  It covers the specialties of Anaesthesiology (Pain Clinic), Cardiothoracic Surgery, Clinical Oncology, Ear, Nose and Throat, Eye, Gynaecology, Medicine, Neurosurgery, Obstetrics, Orthopaedics & Traumatology, Paediatrics, and Surgery.\n\n•\tPay HA\nHA Go provides another platform for patients to pay fees and charges.  The mobile application would also provide the information of bills.  This platform would also offer other payment options, including \"Scan and Pay\" and \"Barcode for convenience stores\". \n•\tRehab \nPatient on rehabilitation programme can follow instruction and carry out exercises prescribed and designed by therapists anywhere anytime at home or in community at their own choice. Programme is available in form of multimedia materials including videos and games.\n\n•\tMedication\nThis platform helps patients find their dispensing records, drug information and allergy records.\n\n•    My Measurement \r\nThis platform helps patients manage their self-measurement records. The My Measurement feature in the MyHealth app integrates with the Apple Health App. It allows patients to retrieve their health data and input it into My Measurement. \r\nPatients can choose which kinds of data to retrieve:\r\n-\tBlood Pressure\r\n-\tHeart Rate\r\n-\tBlood Glucose\r\n-\tBody Weight\r\n-\tBody Temperature\r\nPatients can change the permission at anytime at their device settings.\r\n\n\nMore new features in HA Go will be available in the near future.\n\"HA Go\" is available in Chinese and English."
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Hospital Authority"
+    },
+    "title": {
+      "label": "HA Go - Hospital Authority"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/ha-go/id1469340861?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/e6/c2/37/e6c237e2-87af-32da-dbbb-1429f6aad35c/60d1b5a9-c8a6-44e5-81bf-a30486b22831_HAGo_v1.5.4_chi_1_5.5.PNG/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/ha-go/id1469340861?uo=2",
+      "attributes": {
+        "im:id": "1469340861",
+        "im:bundleId": "hk.org.ha.hago"
+      }
+    },
+    "im:artist": {
+      "label": "Hospital Authority",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/hospital-authority/id514882872?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6020",
+        "term": "Medical",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%86%AB%E8%97%A5/id6020?uo=2",
+        "label": "醫藥"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-07-27T00:00:00-07:00",
+      "attributes": {
+        "label": "2019年07月27日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "HK購"
+    },
+    "im:image": [{
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/9b/c9/1d/9bc91d6c-fd02-b409-69de-d885e4317c23/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/9b/c9/1d/9bc91d6c-fd02-b409-69de-d885e4317c23/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/9b/c9/1d/9bc91d6c-fd02-b409-69de-d885e4317c23/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "HK購，是一家香港本土購物電商，主營類目包含：護理保健、護膚化妝、母嬰育兒、家居電器、寵物用品、運動旅遊等多個品類，覆蓋家庭日常90%所需\nAPP包含以下功能模塊：新人專享、好貨平團、限時秒殺、好物推介等"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Hong Kong Go Limited"
+    },
+    "title": {
+      "label": "HK購 - 香港購科技有限公司"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/hk%E8%B3%BC/id1632141018?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/3e/f6/32/3ef632ff-1f8e-13d6-14a7-59aad15b7bb5/f800e89f-89b1-46af-90e8-bd0c96644571_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/hk%E8%B3%BC/id1632141018?uo=2",
+      "attributes": {
+        "im:id": "1632141018",
+        "im:bundleId": "hkgo.mall"
+      }
+    },
+    "im:artist": {
+      "label": "香港購科技有限公司",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/%E9%A6%99%E6%B8%AF%E8%B3%BC%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1632141020?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6024",
+        "term": "Shopping",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E8%B3%BC%E7%89%A9/id6024?uo=2",
+        "label": "購物"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-11T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年07月11日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "抖音-記錄美好生活"
+    },
+    "im:image": [{
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/fa/e9/eefae953-d10d-335a-88af-c16bb4477cfc/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/fa/e9/eefae953-d10d-335a-88af-c16bb4477cfc/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/fa/e9/eefae953-d10d-335a-88af-c16bb4477cfc/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "抖音是一個幫助用戶表達自我、記錄美好生活的視頻App。在這裡每個人都可以拍攝出屬於自己的創意影片。豐富的音樂媒體庫、原創濾鏡特效，給視頻錄製剪輯更多可能性；個人才藝、日常記事、音樂舞蹈、生活技巧、劇情演繹，舞台的主角就是你。趕快上傳影片，展示獨特創意吧！\n\n社群交友，隨時隨地分享新發現\n● 一鍵分享影片，透過留言評論開啟對話，讓你與家人朋友、喜歡的KOL無間交流。不單單是拍攝，更是年輕人的通訊交友社群！\n\n 人人上熱門，新晉KOL就是你\n● 上載影片即有機會入選熱門推薦，數萬次曝光機會，下一個KOL就是你！\n\n極致畫質、节奏智能匹配、創作無門檻、特效更加分\n● 創意影片分段拍攝剪輯，原創特效濾鏡輕鬆上手。超清晰畫質讓你告別影片被壓縮的煩惱，所有細節完美展現！\n\n快捷搜索、熱爆話題，隨時了解世界最新動態\n● 音樂遊戲、美妝烹飪、生活妙招、旅行攻略、科技知識、新聞時事，你需要的實用內容都在抖音！\n\n KOL直播，每個人的真實生活都在抖音\n● 明星、KOL盡在抖音直播間，透過直播互動聊天、視頻連線，他們的獨家生活千萬別錯過！"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Beijing Microlive Vision Technology Co., Ltd"
+    },
+    "title": {
+      "label": "抖音-記錄美好生活 - Beijing Microlive Vision Technology Co., Ltd"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E6%8A%96%E9%9F%B3-%E8%A8%98%E9%8C%84%E7%BE%8E%E5%A5%BD%E7%94%9F%E6%B4%BB/id1574658617?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/57/7b/aa/577baa4d-1afa-2e51-f602-b373bc26c151/d1835503-4b4c-46fa-937f-1d840fdbdb02_1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E6%8A%96%E9%9F%B3-%E8%A8%98%E9%8C%84%E7%BE%8E%E5%A5%BD%E7%94%9F%E6%B4%BB/id1574658617?uo=2",
+      "attributes": {
+        "im:id": "1574658617",
+        "im:bundleId": "com.ss.iphone.ugc.aweme.mobile"
+      }
+    },
+    "im:artist": {
+      "label": "Beijing Microlive Vision Technology Co., Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/beijing-microlive-vision-technology-co-ltd/id1170416082?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6008",
+        "term": "Photo & Video",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%9B%B8%E7%89%87%E8%88%87%E5%BD%B1%E7%89%87/id6008?uo=2",
+        "label": "相片與影片"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-08-15T00:00:00-07:00",
+      "attributes": {
+        "label": "2021年08月15日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "譚仔三哥米線 TamJai SamGor Mixian"
+    },
+    "im:image": [{
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f8/05/2d/f8052d03-174a-0be8-934d-6f830deefe72/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/f8/05/2d/f8052d03-174a-0be8-934d-6f830deefe72/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f8/05/2d/f8052d03-174a-0be8-934d-6f830deefe72/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "「三哥辛派」會員大募集! 立即下載譚仔三哥 App 登記成為真三粉，體驗譚仔三哥為你帶來嶄新體 驗，盡享豐富獎賞。 \n\n\n主要功能: \n- 手機點餐(堂食及外賣自取) \n三粉們一 App 在手輕鬆點餐；外賣自取更支援手機支付，取餐方便又省時 \n\n\n- 遙距取票 \n隨時查詢附近分店輪候情況，以 App 遙距取票，省卻等候時間\n\n\n- 賺分/電子印花換獎賞 \n三個月內累積消費滿$300 升級成為鐵三粉，每消費$1 賺取 1 分兌換豐富獎賞 \n\n\n- 分店搜尋 \n無論身在何處，即時尋找附近分店位置、營業時間及瀏覽分店詳情 更多功能將會陸續推出，敬請密切留意! \n\n\n- 最新消息 \n為三粉們帶來不同推廣優惠及會員限定資訊  \n\nFacebook: https://www.facebook.com/tamsnoodle Instagram: https://www.instagram.com/tamjai_samgor/"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Tam Jai International Co. Ltd"
+    },
+    "title": {
+      "label": "譚仔三哥米線 TamJai SamGor Mixian - TAM JAI INTERNATIONAL CO. LIMITED"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-tamjai-samgor-mixian/id1623985775?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/73/ce/0f/73ce0fe3-8148-d2d7-e158-df3e0eaadb0f/b0a2aa80-ab8d-4017-9a70-0a00516e6985_Samgor_app_1242x2208px-01.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-tamjai-samgor-mixian/id1623985775?uo=2",
+      "attributes": {
+        "im:id": "1623985775",
+        "im:bundleId": "com.tamjaisamgor.hk"
+      }
+    },
+    "im:artist": {
+      "label": "TAM JAI INTERNATIONAL CO. LIMITED",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/tam-jai-international-co-limited/id1613699687?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6023",
+        "term": "Food & Drink",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%BE%8E%E9%A3%9F%E4%BD%B3%E9%A3%B2/id6023?uo=2",
+        "label": "美食佳飲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-07T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年07月07日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "大快活"
+    },
+    "im:image": [{
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/21/eb/7b21eb33-3f54-c946-b21c-3f6739c22a33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/21/eb/7b21eb33-3f54-c946-b21c-3f6739c22a33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/21/eb/7b21eb33-3f54-c946-b21c-3f6739c22a33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "全新大快活App，立即下載，成為會員，食得快活同時盡享會員獨家優惠！\r\n\n[會員迎新優惠 註冊即賞]\n新會員註冊即享總值$20現金券，手機點餐同分店都用到！\r\n\n[會員獨家優惠 每月放送]\n會員專享每月獨家優惠及快閃推廣，美食著數源源不絕！生日月份仲送你$9.9早餐/下午茶券！\r\n\n[隨時隨地 外賣自取]\n一按即可網上落單，手機付款，到店即取！\r\n\n[餐廳及節日派對美食 一App包辦]\n無論想嗌外賣，到會定盆菜，一個App乜都做到！\r\n\n[一邊嘆美食 一邊回饋社區]\n參與｢走塑·齊齊捐｣ ，減少外賣餐具消耗，大快活同你齊齊捐飯盒俾有需要人士！\r\n\n如果大家對大快活App有任何意見或想法，歡迎電郵至 cs@fairwood.com.hk 同我哋分享！"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Fairwood Fast Food Limited"
+    },
+    "title": {
+      "label": "大快活 - Fairwood Fast Food Limited"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%A4%A7%E5%BF%AB%E6%B4%BB/id1636420626?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cc/9a/42/cc9a4268-6330-1690-c50b-f18400f508aa/2ac0fc41-eada-44fa-9e2e-6475cdc1536c_2208_x_1242_TC1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%A4%A7%E5%BF%AB%E6%B4%BB/id1636420626?uo=2",
+      "attributes": {
+        "im:id": "1636420626",
+        "im:bundleId": "com.fairwood.app"
+      }
+    },
+    "im:artist": {
+      "label": "Fairwood Fast Food Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/fairwood-fast-food-limited/id1633938301?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6023",
+        "term": "Food & Drink",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%BE%8E%E9%A3%9F%E4%BD%B3%E9%A3%B2/id6023?uo=2",
+        "label": "美食佳飲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-14T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年10月14日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "Google"
+    },
+    "im:image": [{
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/74/78/80/74788041-8746-bf0b-84b6-0d36650abd24/logo_gsa_ios_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/74/78/80/74788041-8746-bf0b-84b6-0d36650abd24/logo_gsa_ios_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/74/78/80/74788041-8746-bf0b-84b6-0d36650abd24/logo_gsa_ios_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "通过 Google 应用，您可以随时获悉所关注事物的最新资讯。在“探索”专区，您可以快速获得问题的解答、探索感兴趣的内容，并及时获悉最新资讯。您使用 Google 应用的次数越多，它提供的内容就越合乎您的需求。\n \n搜索和浏览：\n• 附近的商店和餐馆\n• 实时体育赛事比分和赛程\n• 影片放映时间、演职人员和影评\n• 航班和酒店\n• 视频和图片\n• 新闻、股票信息等\n• 可在网上找到的任何内容\n \n在“探索”专区获取合乎个人需求的最新资讯：\n• 及时获悉感兴趣的主题方面的最新资讯\n• 每天早上一睁眼就能获悉天气信息和热门新闻\n• 获取关于体育赛事、影片及各类活动的实时动态\n• 在喜爱的音乐人推出新专辑时第一时间获知\n• 获取与您的兴趣爱好相关的报道\n• 直接从搜索结果中关注有趣的主题\n \n使用 Google 的更多方式：\n• iMessage 扩展程序 - 无需离开对话，即可搜索并分享餐馆信息、GIF 内容等。\n• Search Google 扩展程序 - 在 Safari 中浏览时，您可以通过与 Google 分享网页来查看相关内容推荐，而无需在搜索框中输入任何新内容。从 Safari 的分享菜单中点按“Search Google”图标，即可开始使用该扩展程序。\n•“Google 上的热门搜索”微件 - 借助该微件，您可以了解所在地区有哪些热门搜索内容。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Google Inc."
+    },
+    "title": {
+      "label": "Google - Google LLC"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/google/id284815942?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/2e/c3/642ec3a7-fd58-17a9-a840-b461fb5811e8/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/google/id284815942?uo=2",
+      "attributes": {
+        "im:id": "284815942",
+        "im:bundleId": "com.google.GoogleMobile"
+      }
+    },
+    "im:artist": {
+      "label": "Google LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/google-llc/id281956209?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E5%B7%A5%E5%85%B7%E7%A8%8B%E5%BC%8F/id6002?uo=2",
+        "label": "工具程式"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-02-12T00:00:00-07:00",
+      "attributes": {
+        "label": "2019年02月12日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "YouTube"
+    },
+    "im:image": [{
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "在 iPhone 和 iPad 上下載 YouTube 官方版應用程式，掌握全球影音脈動。舉凡發燒音樂影片、熱門遊戲、時尚、美妝、新聞、成長學習等各種內容，包羅萬象，應有盡有。您可以訂閱喜愛的頻道、自行製作內容、與好友分享同樂，而且在任何裝置上都能觀看。\n\n觀看並訂閱\n● 在「首頁」分頁瀏覽個人化推薦內容\n● 在「訂閱內容」分頁查看您喜愛的頻道推出的最新影片\n● 在「媒體庫」分頁查看您看過的影片、喜歡的影片，以及您儲存的「稍後觀看」清單\n\n探索不同主題、熱門話題和新興流行話題 (僅在特定國家/地區提供此功能)\n● 隨時掌握音樂、遊戲、美妝、新聞、成長學習等方面的熱門資訊\n● 在「探索」分頁查看 YouTube 上和全球流行的發燒內容\n● 認識最酷的創作者、遊戲玩家與樂壇新秀 (僅在特定國家/地區提供此功能)\n\n與 YouTube 社群交流互動\n● 透過貼文、短片故事、首播和直播活動，掌握您喜愛的創作者最新動態\n● 利用留言加入對話，並與創作者及其他社群成員互動\n\n使用行動裝置製作內容\n● 在應用程式中直接製作或上傳您自己的影片\n● 在應用程式中透過直播活動即時與觀眾互動\n\n尋找適合您與家人的體驗 (僅在特定國家/地區提供此功能)\n● 每個家庭會以不同的方式觀看線上影片。除了 YouTube Kids 應用程式之外，您還可以前往 youtube.com/myfamily 使用全新的 YouTube 家長監督功能\n\n透過頻道會員功能支持喜愛的創作者 (僅在特定國家/地區提供此功能)\n● 加入提供月費制會員資格的頻道並支持他們的作品\n● 取得頻道提供的專屬獎勵並成為頻道社群的一員\n● 在您的使用者名稱旁顯示會員徽章，讓您的訊息在留言區和聊天室中脫穎而出\n\n升級至 YouTube Premium (僅在特定國家/地區提供此功能)\n● 觀看無廣告干擾的影片。您可以一邊觀賞影片一邊使用其他應用程式，也可以在螢幕鎖定時繼續播放影片\n● 儲存影片並於之後觀看，例如搭機或通勤時\n● YouTube Premium 會員權益包含 YouTube Music Premium\n\n注意事項：如果是透過 Apple 訂閱，系統會在您確認購買時從您的 App Store 帳戶扣款，並在訂閱期滿時自動續訂。如果不想續訂，最晚請在當期截止的 24 小時前停用自動續訂功能。系統會在當期截止前的 24 小時內，依選定的方案費率向您的帳戶收取續訂費用。交易完成後，您可以前往「帳戶設定」管理訂閱內容與自動續訂設定。\n\n月費： $15.99 USD (US, TC) / $19.99 AUD / $20.99 NZD / $155MXN / £15.99GBP / €15.99 EUR(IE, DE, AT, FR, FI, IT, ES, BE, NL, LU) / $15.99 CAD / 149 kr SEK / 149 kr NOK / 249 ₽ RUB / 149 kr. DKK / R$27.90 BRL / CHF19.90 CHF / ¥1,550 JPY / USD$4.99 (UA, AR) / COP$22,900 / CLP$5,500 / S/.26.90 PEN / €10.99 EUR (PT, CY, GR, MT, EE, LT, LV) / ₹169.00 INR / R94.99 ZAR / USD$9.49 (CR, EC, DO, UY, GT, BO, HN, SV, PY, NI, PA, VE, BY, BM, KY) / 32.99 zł PLN / RON34.99 / 239.00 Kč CZK /  Ft2,390.00 HUF / lev14.99 BGN / USD$10.99 (MK) / €9.49 EUR (SK, SI) / ₺21.99 TRY / USD$18.59 (IS) / kn99.99 HRK /  ₪31.90 ILS / dh32.99 AED / Rial32.99 SAR / Rial32.99 QAR / USD$7.99 (BH, KW, OM, LB, PG) / Rp79,000 IDR / NT$230.00 TWD / ฿209.00 THB / ₱209.00 PHP / $88.00 HKD / RM23.90 MYR / $15.98 SGD / ₦1,500.00 NGN / £79.99 EGP\n\nYouTube《付費服務條款》：https://www.youtube.com/t/terms_paidservice\n隱私權政策：https://www.google.com/policies/privacy"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Google Inc."
+    },
+    "title": {
+      "label": "YouTube - Google LLC"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/youtube/id544007664?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/06/22/f60622d1-755b-a150-a660-b32df0c81453/mzl.jdpzmeqv.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/youtube/id544007664?uo=2",
+      "attributes": {
+        "im:id": "544007664",
+        "im:bundleId": "com.google.ios.youtube"
+      }
+    },
+    "im:artist": {
+      "label": "Google LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/google-llc/id281956209?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6008",
+        "term": "Photo & Video",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%9B%B8%E7%89%87%E8%88%87%E5%BD%B1%E7%89%87/id6008?uo=2",
+        "label": "相片與影片"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-09-11T00:23:19-07:00",
+      "attributes": {
+        "label": "2012年09月11日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "快連VPN"
+    },
+    "im:image": [{
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/74/af/7b74af17-4fd3-439b-ffb0-a8b5e7042898/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/74/af/7b74af17-4fd3-439b-ffb0-a8b5e7042898/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/74/af/7b74af17-4fd3-439b-ffb0-a8b5e7042898/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "快連 VPN 有什麼特點？\n\n- 順暢連接：它採用自主研發的領先技術，首要保障連接的穩定性，不論您在哪裡，只要有網絡，一點就能連上；\n- 注重隱私：無需註冊，下載即可使用，不會以任何形式來收集用戶的隱私信息，防止個人信息的洩露，同時可以幫助您在公共 WIFI 下安全地上網；\n- 免費試用：新用戶首次下載安裝可獲得免費試用時長，您可以先用它訪問一些網站來體驗它的功能，然後再決定是否為其付費；\n- 不限流量：採取按時計費的方式，您可按照週、月、季、年來選購不同時長的套餐，時長越久優惠越多哦；\n- 在線客服：您可以通過電子郵件或在軟件內聯繫我們的客服，隨時獲取幫助；"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Letsgo Network"
+    },
+    "title": {
+      "label": "快連VPN - Letsgo Network Incorporated"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%BF%AB%E9%80%A3vpn/id1471102783?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/09/91/17/099117c4-42e1-db2f-4032-b86e94929d03/8808ec32-549f-4ff9-8f40-f6616c97daf4_Appstore5.5-5_U7e41_U6587.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%BF%AB%E9%80%A3vpn/id1471102783?uo=2",
+      "attributes": {
+        "im:id": "1471102783",
+        "im:bundleId": "world.letsgo.booster.ios.general"
+      }
+    },
+    "im:artist": {
+      "label": "Letsgo Network Incorporated",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/letsgo-network-incorporated/id1471102782?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E5%B7%A5%E5%85%B7%E7%A8%8B%E5%BC%8F/id6002?uo=2",
+        "label": "工具程式"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-22T00:00:00-07:00",
+      "attributes": {
+        "label": "2019年10月22日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "譚仔雲南米線  TamJai Yunnan Mixian"
+    },
+    "im:image": [{
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/46/37/fb/4637fb04-d3fd-85cc-8ab7-f16a5f1b0335/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/46/37/fb/4637fb04-d3fd-85cc-8ab7-f16a5f1b0335/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/46/37/fb/4637fb04-d3fd-85cc-8ab7-f16a5f1b0335/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "譚仔APP嚟個華麗轉身，以全新面貌為大家帶來更多會員限定獎賞及功能！\n立即下載/更新譚仔雲南米線 App 登記成為兒旦會員，體驗譚仔為你帶來嶄新體驗，盡享豐富獎賞！\n\n主要功能:\n- 手機點餐(堂食及外賣自取)\n   App 在手輕鬆點餐；外賣自取更支援手機支付，取餐方便又省時\n\n- 遙距取票\n   隨時查詢附近分店輪候情況，以 App 遙距取票，省卻等候時間\n\n- 賺分/電子印花換獎賞\n  兒旦會員累積指定消費可升級成為笙級會員，每消費$1 賺取 1 分兌換豐富獎賞\n\n- 分店搜尋\n   無論身在何處，即時尋找附近分店位置、營業時間及瀏覽分店詳情 \n\n- 最新消息\n   為會員們帶來不同推廣優惠及會員限定資訊！\n   更多功能將會陸續推出，敬請密切留意!\n\nFacebook: https://zh-hk.facebook.com/Jointedheart\n\nInstagram: www.instagram.com/tamjai_hk"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Tam Jai International Co. Ltd."
+    },
+    "title": {
+      "label": "譚仔雲南米線  TamJai Yunnan Mixian - TAM JAI INTERNATIONAL CO. LIMITED"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-tamjai-yunnan-mixian/id908608957?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/4e/2b/22/4e2b22f3-72b2-57aa-ff22-64171fa6ef56/f9f5f3f4-7c69-4d82-b378-20fb24c7fce1_Tamjai_app_2048x2732px-01.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-tamjai-yunnan-mixian/id908608957?uo=2",
+      "attributes": {
+        "im:id": "908608957",
+        "im:bundleId": "com.nexsoft.tamjai"
+      }
+    },
+    "im:artist": {
+      "label": "TAM JAI INTERNATIONAL CO. LIMITED",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/tam-jai-international-co-limited/id1613699687?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6023",
+        "term": "Food & Drink",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%BE%8E%E9%A3%9F%E4%BD%B3%E9%A3%B2/id6023?uo=2",
+        "label": "美食佳飲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-01-28T03:10:39-07:00",
+      "attributes": {
+        "label": "2015年01月28日"
+      }
+    }
+  }
+]
