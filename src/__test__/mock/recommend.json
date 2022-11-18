@@ -1,0 +1,931 @@
+[{
+    "im:name": {
+      "label": "Disney+"
+    },
+    "im:image": [{
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/56/81/3e/56813e93-e8ed-4290-9d6d-0d0d1e86bc7a/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/56/81/3e/56813e93-e8ed-4290-9d6d-0d0d1e86bc7a/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/56/81/3e/56813e93-e8ed-4290-9d6d-0d0d1e86bc7a/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Disney+ 為您提供各種精彩內容，讓您有更多選擇，總有所愛。Disney (迪士尼)、Pixar (台：皮克斯；港：彼思)、Marvel (台：漫威)、Star Wars (台：星際大戰；港：星球大戰)、National Geographic (國家地理) 及 Star 提供的無限娛樂，待您探索，總有驚喜。觀看最新內容、原創系列與電影、經典電影、好戲重溫，還有更多精彩內容。\n\n串流播放並下載《洛基》和《曼達洛人》等原創內容，以及《死侍》、《陰屍路》和《復仇者聯盟》系列等粉絲最愛。隨時都會有新發現。\n\nDisney+ 為您帶來：\n• 優質無廣告體驗\n• 各種熱門電影、懷舊和經典作品 \n• Disney (迪士尼)、Pixar (台：皮克斯；港：彼思)、Marvel (台：漫威)、Star Wars (台：星際大戰；港：星球大戰)、National Geographic (國家地理) 及 Star 提供的獨家全新原創內容\n• 亞太地區獨家原創內容，包括來自韓國、日本及台灣的電影、戲劇、綜藝節目與動畫。\n• 無需額外花費就能同時在四個螢幕上觀看內容\n• GroupWatch 功能：即使不在彼此身邊，仍可一起觀看 Disney+。\n• 強大的Parental Control (台：家長控制；港：家長監護)功能，一家人看電視更放心\n• 可在多達 10 部裝置上下載\n• 不斷增加的 4K 影片系列 (需要相容設備)\n\n如需 Disney+ 使用說明，請前往：http://help.disneyplus.com。\n如需了解《訂閱協議》和其他政策，請前往：https://disneyplus.com/legal。\nDisney+ 提供的內容可能會因地區而異。您所在的國家／地區可能無法播放上述某些影片。\n \n立即開始播放您最愛的內容！"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Disney. All Rights Reserved."
+    },
+    "title": {
+      "label": "Disney+ - Disney"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/disney/id1446075923?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9f/70/3a/9f703a65-2dae-276c-dfac-4e2d9af5ee2c/4af6e47e-fa81-4b81-b300-2ef97fd61280_1-Tablet-iOS-Home-Star-HK.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/disney/id1446075923?uo=2",
+      "attributes": {
+        "im:id": "1446075923",
+        "im:bundleId": "com.disney.disneyplus"
+      }
+    },
+    "im:artist": {
+      "label": "Disney",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/disney/id284888248?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E5%A8%9B%E6%A8%82/id6016?uo=2",
+        "label": "娛樂"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-11-15T00:00:00-07:00",
+      "attributes": {
+        "label": "2021年11月15日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "三國志幻想大陸-卡牌王者"
+    },
+    "im:image": [{
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/2e/8f/28/2e8f2849-d761-549a-1869-e6408920453f/AppIcon-hk-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/2e/8f/28/2e8f2849-d761-549a-1869-e6408920453f/AppIcon-hk-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/2e/8f/28/2e8f2849-d761-549a-1869-e6408920453f/AppIcon-hk-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "===遊戲簡介===\n城主，你來了！\n上古雙龍隕落造就了這片大陸，在這裡三國眾將仍在叱吒風雲。但不同的是，一切熟悉的背後隱藏著未知的敵人！曾經的討伐董卓、三英戰呂布...三分亂世之局又會如何重演？而你，將作為一方城主橫空出世，聚集眾將，對抗這個黑暗！\n想成為你的手下，強大是必然的，所有武將都可突破到最強品階UR，R卡也能被你打造成真正的神角，擁有不輸任何人的戰鬥力。\n除了強更要帥！日本美術大師監製，連R卡都精美無比，你的手下各個超高顏值！\n在你的帶領下，武將們還會爆發出遠超數值的戰鬥力，跨陣營羈絆策略由你觸發，羈絆的威力讓你統御整個戰場！\n即刻下載， 將如此強將齊聚手下，成為亂世中最強的力量！ \n\n===遊戲特色===\n①全員高顏值！打架帥氣最關鍵！ \n②突破品階大翻身！R卡一樣變神角！\n③養成一鍵繼承！抽新角一秒上場！ \n④花式羈絆組合！戰鬥力由你統御！ \n⑤放置就能變強！不用再刷到天亮！ \n⑥共享20億幻星！何不瀟灑歐一回！ \n\n===聯繫我們===\n遊戲官網：http://orientarcadia.qookkagames.com/official/#/?access=1 \n官方粉絲團：https://www.facebook.com/OrientArcadia/ \n官方Discord：https://discord.com/invite/SZSR5Et84Z"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Qookka 2022"
+    },
+    "title": {
+      "label": "三國志幻想大陸-卡牌王者 - Qookka Entertainment Limited"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E4%B8%89%E5%9C%8B%E5%BF%97%E5%B9%BB%E6%83%B3%E5%A4%A7%E9%99%B8-%E5%8D%A1%E7%89%8C%E7%8E%8B%E8%80%85/id1626979616?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/be/3e/fd/be3efd96-7a80-fbc6-4749-31bc345d8110/d2cdb3aa-d698-47cf-8f4e-1e4845017586_1__U4e3bkv_2732X2048.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E4%B8%89%E5%9C%8B%E5%BF%97%E5%B9%BB%E6%83%B3%E5%A4%A7%E9%99%B8-%E5%8D%A1%E7%89%8C%E7%8E%8B%E8%80%85/id1626979616?uo=2",
+      "attributes": {
+        "im:id": "1626979616",
+        "im:bundleId": "com.qookkagames.starg.hk"
+      }
+    },
+    "im:artist": {
+      "label": "Qookka Entertainment Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/qookka-entertainment-limited/id1473950519?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-03T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年10月03日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "RO仙境傳說：愛如初見"
+    },
+    "im:image": [{
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/25/dc/e9/25dce9b0-8e7e-817a-099d-2d26a49154bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/25/dc/e9/25dce9b0-8e7e-817a-099d-2d26a49154bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/25/dc/e9/25dce9b0-8e7e-817a-099d-2d26a49154bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "===遊戲特色===\n\n◈經典二十年，傑伴你同行◈\nRO二十年經典傳承，五年匠心巨製\nMMORPG扛鼎之作《RO仙境傳說：愛如初見》\n和【首席冒險官】JJ林俊傑一起來場仙境冒險吧！\n\n◈MVP獎勵大放送 轉生大神不是夢◈ \n更友善的獎勵機制，豪華獎勵摸王就能領！\nMVP人人有機會，超稀有王卡、頭飾再也不是夢！ \n王卡GET，精煉材料GET，封頂發光、一夜暴富指日可待\n\n◈公會打王 人人領分紅◈\n高互動性的副本設計，盡享團隊配合的酣暢淋漓感\n獨特的公會拍賣機制，每一位成員都能領取分紅\n多樣的貢獻機制，菜鳥也可以為公會添磚加瓦\n\n◈趣味PVE 策略闖關◈\n赫爾海姆副本裡有許多趣味PVE玩法\n流沙中保護隊友，走迷宮闖地牢\n各種機關暗道，BOSS技能更複雜\n要戰勝強敵，活用職業特性與技能搭配是關鍵\n\n◈全能萌寵 陪你冒險◈\n逗趣寵物，既萌也夠夯，進階助戰實力大增\n大量屬性加成，貼身相伴，給你想要的安全感\n多種定位，選擇合適自己的寵物夥伴冒險練功，事半功倍\n\n◈華麗時裝隨心配◈\n帶有仙境專屬回憶的GM制服\n遊戲內高人氣的女魔物「艾斯恩魔女」與其僕人「惡魔使者」的cos服\n擁有滿滿童年趣味的童真套裝\n為朋友婚禮做伴娘的甜蜜祝福服\n萬千服飾，自由隨心配，冒險也要水噹噹\n\n\n\n===聯繫我們===\n加入《RO仙境傳說：愛如初見》，和我們一起守護米德加爾特大陸！\n▶遊戲官網：\nhttps://roo.gnjoy.hk/\n▶官方粉絲團：\nhttps://lihi1.com/jIoPL\n▶官方Line社群：\nhttps://lihi1.com/bB7pC\n▶官方攻略討論Line社群：\nhttps://lihi1.cc/cpBra\n▶官方Discord：\nhttps://lihi1.com/zSSB4\n\n注意事項：\n*本遊戲依據遊戲軟體分級管理辦法分類為輔15級。\n*本遊戲免費下載，內有部分付費內容。\n*切勿長時間持續使用與不當模仿，注意適度休息。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Gravity Game Vision Limited"
+    },
+    "title": {
+      "label": "RO仙境傳說：愛如初見 - Gravity Game Vision Limited"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E6%84%9B%E5%A6%82%E5%88%9D%E8%A6%8B/id1618358912?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e1/b0/36/e1b0369c-8d31-60d0-af63-35443c21501a/74f97cd9-7ea5-4b45-8c53-9aea55af49b2_1.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E6%84%9B%E5%A6%82%E5%88%9D%E8%A6%8B/id1618358912?uo=2",
+      "attributes": {
+        "im:id": "1618358912",
+        "im:bundleId": "com.gravity.roo.tw"
+      }
+    },
+    "im:artist": {
+      "label": "Gravity Game Vision Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/gravity-game-vision-limited/id1618358914?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-13T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年09月13日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "勝利女神：妮姬"
+    },
+    "im:image": [{
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/13/d5/fe/13d5fe9b-72c4-309c-a331-63838bb11038/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/13/d5/fe/13d5fe9b-72c4-309c-a331-63838bb11038/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/13/d5/fe/13d5fe9b-72c4-309c-a331-63838bb11038/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "【請成為我的指揮官...拯救這個世界!。】\n我們輸了。\n「萊徹」無預警地來襲，殘忍地鎮壓地上的人類。\n其原因不明，無法談判。\n就如同天敵一般，瞬間將陸地變為火海。\n面對它們那海嘯般接連不斷的攻勢，至今為止積累的科技成果都沒有了任何意義。\n人類只是，被蹂躪的一方。\n開發中的人形兵器是我們的最後希望，然而成效卻是微乎其微，逆轉戰局的奇蹟並沒有發生。\n真正的完敗。\n地面被萊徹奪走，人類被迫往地下深處遷移。\n\n\n在那之後過了幾十年，在人類的新住所「方舟」裡，少女們醒了過來。\n被驅逐到地下的人類集合了所有技術結晶「對萊徹用決戰人形兵器」。\n少女們搭乘了幾十年從沒開啟過，去往地上的電梯。\n人類只能祈禱。\n少女們會成為我們的箭矢。\n成為我們的復仇之劍。\n少女們帶著這祈願賦予之名，前往地面。\n為人類帶來勝利最後的希望。\n名為——妮姬。\n\n\n▶獨特魅力角色群\n大手繪師金亨泰 立繪人物1:1局內戰鬥！\n與個性豐富、充滿魅力的妮姬們共同奮戰！\n\n\n▶頂級品質畫面表現\n使用頂尖作畫技術、最高品質圖畫，\n以及Lip Sync動作等尖端科技。\n從未有過的動作畫面！\n\n\n▶超絕愉悅戰術體驗\n多樣化槍砲與人物技能搭配擊敗各式強敵！\n活用戰術，體驗瞬息萬變的戰場！\n\n\n▶壯闊的世界觀及劇本\n嶄新且衝擊力十足的世界觀，\n觸動人心的精彩劇本。\n\n官網連結：https://nikke.gamamobi.com/\nFacebook：https://www.facebook.com/TW.NIKKE/\nInstagram：https://www.instagram.com/tw.nikke/\nYouTube：https://www.youtube.com/channel/UCLI0h6wX_RpEbDcB11UV_RA\n隱私政策：https://nikke.gamamobi.com/privacy/game.html\n服務條款：https://nikke.gamamobi.com/archive/game.html\n客服信箱：cs.nikke@gamamobi.com\n\n※依中華民國遊戲軟體分級管理辦法分類為：輔15級。\n※本遊戲內容涉及「性」：角色穿著凸顯女性胸、臀性特徵之服飾；「暴力」：角色於打鬥劇情中有凸顯受傷流血、血液飛濺等血腥畫面，但未令人產生殘虐印象，應列為輔導十五歲級。\n※本遊戲為免費遊戲，但遊戲內另提供購買虛擬遊戲幣、物品等付費服務，請依個人興趣及能力進行適度消費。\n※請注意遊戲時間，避免沉迷，長時間進行遊戲，容易影響作息，宜適度休息及運動。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Gamamobi HK Co., Limited"
+    },
+    "title": {
+      "label": "勝利女神：妮姬 - Gamamobi HK Co., Limited"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E-%E5%A6%AE%E5%A7%AC/id1630883882?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/82/ef/d6/82efd662-ac5d-207d-a63b-df72ca620cfd/adc72e70-248f-4fca-9c28-4cea668e8063_1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E-%E5%A6%AE%E5%A7%AC/id1630883882?uo=2",
+      "attributes": {
+        "im:id": "1630883882",
+        "im:bundleId": "com.gamamobi.nikke"
+      }
+    },
+    "im:artist": {
+      "label": "Gamamobi HK Co., Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/gamamobi-hk-co-limited/id1537527299?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-11-02T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年11月02日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "魔鏡物語-童話都是騙人的"
+    },
+    "im:image": [{
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a6/50/df/a650dfc6-d770-9971-11d6-e971d2dcdf38/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/a6/50/df/a650dfc6-d770-9971-11d6-e971d2dcdf38/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/a6/50/df/a650dfc6-d770-9971-11d6-e971d2dcdf38/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "歡迎光臨《魔鏡物語》神秘的暗黑童話世界！打破童話碎片，墮入光與暗的交界！\n心機的白雪，腹黑的小紅帽，熟悉角色全面顛覆？\n白雪反殺了皇后、小紅帽披上狼皮，經典劇情竟然被反轉了？\n無窮無盡的森林秘境，甜美與冷血並存的神秘世界。\n加入魔鏡世界，和“甜美白雪”謝欣穎來一場心跳冒險之旅吧，童話結局由你逆轉！\n現在，加入魔鏡世界就送1001抽！開局就能搭配傳說陣容，人人都是歐皇！\n\n【匠心立繪| 叛逆童話驚喜來襲】\n上百名全新設計的個性童話角色，數百段大跌眼的反轉童話劇情，讓你體驗獨特的秘境冒險之旅！魔法森林、深淵城堡、月牙之泉等大量關卡情景，樂享童話世界！\n\n【全員黑化 | Q版與暗黑的碰撞】\n劇場式演繹暗黑童話，多元化童話夥伴互動，精緻的童話場景，讓你身臨其境，仿佛融入童話世界！\n\n【策略幻境 | 神器玩法隨時逆轉】\n屬性克制、技能克制，搭配獨創靈物玩法，每個夥伴皆有用處！靈活變陣、神器釋放，所有操作皆不白費。真正實現全角色能用，組合你的招牌Combo，解鎖童話世界的神秘面紗！\n\n【夢幻開局| 登入就送1001抽】\n登入就送1001抽，更有7日送傳說夥伴、新手福利任務等高額開局獎勵！讓你開局一直爽！\n\n【終極護肝 | 終身休閒解放雙手】\n掛機即可升級！更內置多線掛機系統！即使你不在線，伺服器也會模擬真實在線產出對應獎勵，免除卡關卡等級煩惱，全身心沉浸在卡牌體驗！\n\n【溫馨提示】\n*本軟體因涉及暴力、性（遊戲角色穿著凸顯性特徵之服飾），依遊戲軟體分級管理辦法分類為輔12級。\n*本遊戲為免費使用，遊戲內另提供購買虛擬遊戲幣、物品等付費服務。\n*長時間進行遊戲，請注意使用時間，避免沉迷於遊戲。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Sky Entertainment Network Limited"
+    },
+    "title": {
+      "label": "魔鏡物語-童話都是騙人的 - Sky Entertainment Network Limited"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E9%AD%94%E9%8F%A1%E7%89%A9%E8%AA%9E-%E7%AB%A5%E8%A9%B1%E9%83%BD%E6%98%AF%E9%A8%99%E4%BA%BA%E7%9A%84/id1639242170?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/14/7e/ac/147eac2e-af58-daa9-f13f-431dc1f2cbac/64d24bd7-f630-43c6-a316-5184700b0c41_2048x2732-0.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E9%AD%94%E9%8F%A1%E7%89%A9%E8%AA%9E-%E7%AB%A5%E8%A9%B1%E9%83%BD%E6%98%AF%E9%A8%99%E4%BA%BA%E7%9A%84/id1639242170?uo=2",
+      "attributes": {
+        "im:id": "1639242170",
+        "im:bundleId": "com.magicd.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Sky Entertainment Network Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/sky-entertainment-network-limited/id1439530152?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-11-07T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年11月07日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "YouTube"
+    },
+    "im:image": [{
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/45/07/f3/4507f305-75f0-a60c-8aa2-4e69e68e0a87/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "在 iPhone 和 iPad 上下載 YouTube 官方版應用程式，掌握全球影音脈動。舉凡發燒音樂影片、熱門遊戲、時尚、美妝、新聞、成長學習等各種內容，包羅萬象，應有盡有。您可以訂閱喜愛的頻道、自行製作內容、與好友分享同樂，而且在任何裝置上都能觀看。\n\n觀看並訂閱\n● 在「首頁」分頁瀏覽個人化推薦內容\n● 在「訂閱內容」分頁查看您喜愛的頻道推出的最新影片\n● 在「媒體庫」分頁查看您看過的影片、喜歡的影片，以及您儲存的「稍後觀看」清單\n\n探索不同主題、熱門話題和新興流行話題 (僅在特定國家/地區提供此功能)\n● 隨時掌握音樂、遊戲、美妝、新聞、成長學習等方面的熱門資訊\n● 在「探索」分頁查看 YouTube 上和全球流行的發燒內容\n● 認識最酷的創作者、遊戲玩家與樂壇新秀 (僅在特定國家/地區提供此功能)\n\n與 YouTube 社群交流互動\n● 透過貼文、短片故事、首播和直播活動，掌握您喜愛的創作者最新動態\n● 利用留言加入對話，並與創作者及其他社群成員互動\n\n使用行動裝置製作內容\n● 在應用程式中直接製作或上傳您自己的影片\n● 在應用程式中透過直播活動即時與觀眾互動\n\n尋找適合您與家人的體驗 (僅在特定國家/地區提供此功能)\n● 每個家庭會以不同的方式觀看線上影片。除了 YouTube Kids 應用程式之外，您還可以前往 youtube.com/myfamily 使用全新的 YouTube 家長監督功能\n\n透過頻道會員功能支持喜愛的創作者 (僅在特定國家/地區提供此功能)\n● 加入提供月費制會員資格的頻道並支持他們的作品\n● 取得頻道提供的專屬獎勵並成為頻道社群的一員\n● 在您的使用者名稱旁顯示會員徽章，讓您的訊息在留言區和聊天室中脫穎而出\n\n升級至 YouTube Premium (僅在特定國家/地區提供此功能)\n● 觀看無廣告干擾的影片。您可以一邊觀賞影片一邊使用其他應用程式，也可以在螢幕鎖定時繼續播放影片\n● 儲存影片並於之後觀看，例如搭機或通勤時\n● YouTube Premium 會員權益包含 YouTube Music Premium\n\n注意事項：如果是透過 Apple 訂閱，系統會在您確認購買時從您的 App Store 帳戶扣款，並在訂閱期滿時自動續訂。如果不想續訂，最晚請在當期截止的 24 小時前停用自動續訂功能。系統會在當期截止前的 24 小時內，依選定的方案費率向您的帳戶收取續訂費用。交易完成後，您可以前往「帳戶設定」管理訂閱內容與自動續訂設定。\n\n月費： $15.99 USD (US, TC) / $19.99 AUD / $20.99 NZD / $155MXN / £15.99GBP / €15.99 EUR(IE, DE, AT, FR, FI, IT, ES, BE, NL, LU) / $15.99 CAD / 149 kr SEK / 149 kr NOK / 249 ₽ RUB / 149 kr. DKK / R$27.90 BRL / CHF19.90 CHF / ¥1,550 JPY / USD$4.99 (UA, AR) / COP$22,900 / CLP$5,500 / S/.26.90 PEN / €10.99 EUR (PT, CY, GR, MT, EE, LT, LV) / ₹169.00 INR / R94.99 ZAR / USD$9.49 (CR, EC, DO, UY, GT, BO, HN, SV, PY, NI, PA, VE, BY, BM, KY) / 32.99 zł PLN / RON34.99 / 239.00 Kč CZK /  Ft2,390.00 HUF / lev14.99 BGN / USD$10.99 (MK) / €9.49 EUR (SK, SI) / ₺21.99 TRY / USD$18.59 (IS) / kn99.99 HRK /  ₪31.90 ILS / dh32.99 AED / Rial32.99 SAR / Rial32.99 QAR / USD$7.99 (BH, KW, OM, LB, PG) / Rp79,000 IDR / NT$230.00 TWD / ฿209.00 THB / ₱209.00 PHP / $88.00 HKD / RM23.90 MYR / $15.98 SGD / ₦1,500.00 NGN / £79.99 EGP\n\nYouTube《付費服務條款》：https://www.youtube.com/t/terms_paidservice\n隱私權政策：https://www.google.com/policies/privacy"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Google Inc."
+    },
+    "title": {
+      "label": "YouTube - Google LLC"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/youtube/id544007664?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/06/22/f60622d1-755b-a150-a660-b32df0c81453/mzl.jdpzmeqv.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/youtube/id544007664?uo=2",
+      "attributes": {
+        "im:id": "544007664",
+        "im:bundleId": "com.google.ios.youtube"
+      }
+    },
+    "im:artist": {
+      "label": "Google LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/google-llc/id281956209?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6008",
+        "term": "Photo & Video",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E7%9B%B8%E7%89%87%E8%88%87%E5%BD%B1%E7%89%87/id6008?uo=2",
+        "label": "相片與影片"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-09-11T00:23:19-07:00",
+      "attributes": {
+        "label": "2012年09月11日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "原神"
+    },
+    "im:image": [{
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f9/2b/50/f92b504c-50aa-a621-cff5-c58a61eaa48d/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f9/2b/50/f92b504c-50aa-a621-cff5-c58a61eaa48d/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f9/2b/50/f92b504c-50aa-a621-cff5-c58a61eaa48d/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "無數生靈繁衍聚集的廣袤大陸「提瓦特」，天地萬象蘊含其間。\n這裡是七神統治、七種元素交匯的世界……\n\n陌生的天空下，少年少女立於塵沙。\n你們是一對旅行中的雙子，從世界之外漂流而來。你的血親被陌生的神靈帶走，而你也被神封印，陷入沉眠。\n再度醒來，天地間風景已變……\n\n《原神》是一款全新的開放世界冒險RPG。你將在遊戲中探索一個稱為「提瓦特」的幻想世界。\n在這廣闊的世界中，你可以踏遍七國，邂逅性格各異、能力獨特的同伴，與他們一同對抗強敵，踏上尋回血親之路；也可以不帶目的地漫遊，沉浸在充滿生機的世界裡，讓好奇心驅使自己發掘各個角落的奧秘……\n直到你與分離的血親重聚，在終點見證一切事物的沉澱。\n\n〓開放世界，自由探索〓\n《原神》是一款開放世界冒險遊戲，這意味著從你踏入「提瓦特」的第一刻起，只要合理規劃自己的體力，不論是翻山越嶺、還是橫渡江河，總有辦法見到新的風景。若見到遊蕩的仙靈、奇異的裝置，不妨上前探究一番，看看迎接你的是意外，還是驚喜？\n\n〓元素互動，策略戰鬥〓\n在這片元素交會的土地上，世界由風、雷、水、火、冰、草、岩七大元素構成，擁有「神之眼」的角色能引導元素之力用於戰鬥和探險。水與火相遇觸發「蒸發」，火與雷引起「超載」，雷遇水附加「感電」……針對不同敵人，使用技能觸發適當的元素效果，是制勝的關鍵。\n\n〓美術音樂，品質呈現〓\n《原神》美術風格清新，過場動畫採即時渲染，角色動作經由動捕與細緻調整而來，呈現出高品質的演出效果。隨著二十四小時晝夜更替，天氣與音樂也在動態變化，無論身處何地，總能聆聽到由倫敦愛樂樂團、上海交響樂團等世界頂級交響樂團獻上的具有地域特色的演奏。\n\n〓眾多夥伴，攜手冒險〓\n在冒險的旅途中，還可結識能力獨特的伙伴，不妨摸索最佳隊伍搭配、用旅途中收集的素材強化角色，最終大陸上的魔物與祕境都將被你征服。立於絕雲之巔，陰晴雨雪、雲捲雲舒似乎盡在眼前。但失散的血親尚未重聚，「原神」的真相仍未顯現……動身吧，旅行者，真正的冒險才剛剛開始呢。\n\nSUPPORT\n遊戲中遇到任何問題，皆可透過遊戲內的客服中心提出回饋。\n客服信箱: genshin_cs@hoyoverse.com\n官方網站: https://genshin.hoyoverse.com/\n官方論壇: https://www.hoyolab.com/\n官方Facebook粉絲專頁：https://www.facebook.com/Genshinimpact.tw\n官方Discord群：https://discord.gg/QsJe5NQ\n官方YouTube頻道：http://www.youtube.com/c/GenshinImpact\n\n***相容性要求***\n推薦系統：\niOS 12.0 或更高版本\n\n推薦裝置：\niPhone 8 Plus、iPhone X、iPhone XS、iPhone XS Max、iPhone XR、iPhone 11、iPhone 11 Pro、iPhone 11 Pro Max、iPhone SE（第二代）、iPhone 12、iPhone 12 mini、iPhone 12 Pro、iPhone 12 Pro Max、iPhone 13、iPhone 13 mini、iPhone 13 Pro、iPhone 13 Pro Max、iPhone 14、iPhone 14 Plus、iPhone 14 Pro、iPhone 14 Pro Max、iPad Air（第三代）、iPad mini（第五代）、iPad Pro（第二代）12.9英吋、iPad Pro（第二代）10.5英吋、iPad Pro（第三代）11 英吋、iPad Pro （第三代）12.9 英吋 、iPad Pro（第四代）11 英吋、iPad Pro （第四代）12.9 英吋、iPad Air（第四代）、iPad（第八代）、iPad mini（第六代）、iPad（第九代）\n\n品玩邦藝術股份有限公司為《原神》在台港澳地區的代理商。\n※本軟體因涉及性、暴力情節，依遊戲軟體分級管理辦法分類為輔12級。 \n※本遊戲為免費使用，遊戲內另提供購買虛擬貨幣、物品等付費服務。 \n※請注意遊戲時間，避免沈迷。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "Copyright © COGNOSPHERE. All Rights Reserved."
+    },
+    "title": {
+      "label": "原神 - COGNOSPHERE PTE. LTD."
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%8E%9F%E7%A5%9E/id1517783697?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/3b/14/3e/3b143e33-6230-8744-2357-acf7bfcd6aa5/da1bf3a6-9279-44a3-bdc9-621a8d139957_CHT-2732x2048.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%8E%9F%E7%A5%9E/id1517783697?uo=2",
+      "attributes": {
+        "im:id": "1517783697",
+        "im:bundleId": "com.miHoYo.GenshinImpact"
+      }
+    },
+    "im:artist": {
+      "label": "COGNOSPHERE PTE. LTD.",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/cognosphere-pte-ltd/id1599719156?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-09-26T00:00:00-07:00",
+      "attributes": {
+        "label": "2020年09月26日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "噠噠特攻"
+    },
+    "im:image": [{
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/15/b0/91/15b0912e-5e6a-e3fc-2b88-8dd7863d7cd0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/15/b0/91/15b0912e-5e6a-e3fc-2b88-8dd7863d7cd0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/15/b0/91/15b0912e-5e6a-e3fc-2b88-8dd7863d7cd0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "危險的喪屍正在攻擊整個城市，城市已經陷入危機！\n被夢境試煉喚起的你，已經成為身負重任的戰士！\n作為一名極具潛力的人類戰士，你將與其他倖存者一起拿起武器，戰勝邪惡的危險喪屍！\n敵人的力量依舊強大，稍不留神就會讓自己陷入險境！\n在這種艱難時刻，想盡辦法，生存下去吧！\n\n功能亮點：\n-1000+怪物同屏，消滅他們！\n-單手操作，稱霸地圖！\n-全新Roguelite技能體驗，無限組合\n-全新關卡體驗，多重難度選擇\n\nFaceBook:@噠噠特攻\n聯繫我們: survivor@habby.com\n\n※本遊戲依遊戲軟體分級管理辦法分類為：「 輔15級」十五歲以上之人始得使用。\n根據遊戲軟體分級管理辦法第4條，本遊戲軟體內含血腥之打鬥、攻擊、殺戮畫面，但不致使人感到凶殘暴虐，應列為輔導十五歲級。 \n※請注意使用時間，避免沉迷於遊戲。 \n※本遊戲為免費遊戲，但遊戲內另提供購買虛擬遊戲幣、物品等付費服務，請依個人興趣及能力進行適度消費關於訂閱。 \n※消費者為限制行為能力人者，本契約訂定時，應經消費者之法定代理人同意，本契約始生效力；消費者為無行為能力人者，本契約之訂定，應由消費者之法定代理人代為之，並應於消費者之法定代理人閱讀、瞭解並同意本契約之所有內容後，方得使用本遊戲服務，本契約條款變更時亦同。 \n※《噠噠特攻》由Habby研發並由愛彼遊戲有限公司代理。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Habby.fun"
+    },
+    "title": {
+      "label": "噠噠特攻 - HABBY"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%99%A0%E5%99%A0%E7%89%B9%E6%94%BB/id1528941310?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/14/fb/d4/14fbd413-c9f1-66c2-e64e-9f311f35552f/7f833d60-1304-484b-8a82-43b210629fd5_ipad_2048x2732-3.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%99%A0%E5%99%A0%E7%89%B9%E6%94%BB/id1528941310?uo=2",
+      "attributes": {
+        "im:id": "1528941310",
+        "im:bundleId": "com.dxx.firenow"
+      }
+    },
+    "im:artist": {
+      "label": "HABBY",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/habby/id1422308796?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-08-09T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年08月09日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "雀魂麻將"
+    },
+    "im:image": [{
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/eb/c9/3c/ebc93cf6-a76b-c7c4-ee6f-fb14e65f9921/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/eb/c9/3c/ebc93cf6-a76b-c7c4-ee6f-fb14e65f9921/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/eb/c9/3c/ebc93cf6-a76b-c7c4-ee6f-fb14e65f9921/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "【遊戲簡介】\n-精美和風日本麻將遊戲——好評運營中！\n\n【遊戲特色】\t\n-免費暢玩的二次元對戰日本麻將\n-享受從初學者到高手的天梯模式\n-便捷的友人房系統，可以與世界各地的雀士進行對局\n-自建賽事，與牌友競技切磋\n-3D牌桌、卡通渲染、酷炫特效，還原動漫中的麻將體驗\n-精美立繪、豪華聲優，身臨其境的麻將競技\n-可愛的角色表情，增加對局樂趣\n-通過遊戲對局，更可以解鎖豐富的語音和裝扮\n\n【關注我們】\n-雀魂麻將官方網站：https://www.maj-soul.com/\n-官方Facebook頁面：https://www.facebook.com/MahjongSoul.TC/\n-官方客服郵箱：cs@maj-soul.com\n\n\n※本遊戲角色穿著凸顯女性胸、臀性特徵之服飾。\r\n※本遊戲內容以「酒」作為提升好感度的道具，涉及引誘、鼓勵使用酒類之情節。\r\n※本應用遊戲為免費使用，內另有提供購買虛擬遊戲幣、物品等付費服務，請依個人興趣及能力進行適度消費。\r\n※請注意遊戲時間，長時間進行遊戲，容易影響作息，宜適度休息及運動。"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "©2020 SOULCREATOR NETWORK TECHNOLOGY CO.,LTD"
+    },
+    "title": {
+      "label": "雀魂麻將 - Catfood Studio"
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E9%9B%80%E9%AD%82%E9%BA%BB%E5%B0%87/id1502673857?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/6b/0b/ec/6b0becfb-3745-cbd5-5d87-095acee91270/1bffabc8-41a5-43ce-9a3e-1af586310fb7_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E9%9B%80%E9%AD%82%E9%BA%BB%E5%B0%87/id1502673857?uo=2",
+      "attributes": {
+        "im:id": "1502673857",
+        "im:bundleId": "com.soulgamechst.mahjongsoul"
+      }
+    },
+    "im:artist": {
+      "label": "Catfood Studio",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/catfood-studio/id1479504032?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-09-15T00:00:00-07:00",
+      "attributes": {
+        "label": "2020年09月15日"
+      }
+    }
+  },
+  {
+    "im:name": {
+      "label": "奧丁：神叛"
+    },
+    "im:image": [{
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/5e/55/3c/5e553cd4-fb33-e2d3-40f5-c52ad78d2b0e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/5e/55/3c/5e553cd4-fb33-e2d3-40f5-c52ad78d2b0e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/5e/55/3c/5e553cd4-fb33-e2d3-40f5-c52ad78d2b0e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "《奧丁：神叛》全新職業「神盾」正式登場\n挑戰最新神職，在神之領域選擇成為人或神的瞬間！\n\n ▣ 遊戲介紹 ▣\n[MMORPG極致視覺! 如臨神之領域!]\n-採用高規格3D掃描及動態捕捉技術，搭配UE4引擎開發，打造氣勢磅礴的自由開闊世界\n-史詩級場景，MMORPG全新層級，沉浸式的遊戲體驗\n-自由開放的無接縫地圖，自由移動時無需耗時加載\n\n[北歐神話! 刻劃神之領域!]\n-豐富多元與充滿細節的北歐神話世界觀\n-來自北歐神話中的巨人世界、各式種族和巨型怪物\n-世界之樹下的四個國度，居住著人類、巨人、侏儒、精靈等不同種族\n\n[高自由度! 探索神之領域!]\n-透過飛行居高臨下，世界國度美景盡收眼底\n-遊戲內全景無死角，利用攀爬和游泳來克服地形障礙\n-使用一般技能和連續技能搭配，打造專屬的戰鬥風格\n\n[大型戰爭! 挑戰神之領域!]\n-四大職業各司其職，角色各守其位！\n-BOSS突襲，對抗北歐神話中的眾神和怪獸！\n-佔領瓦爾哈拉的大規模戰鬥！\n\n\n▣ 溫馨提醒 ▣\n※本軟體依中華民國遊戲軟體分級管理辦法分類為：輔15+級。\n※本遊戲內容涉及暴力、恐怖(未達血腥之畫面)、遊戲角色穿著凸顯性特徵但不涉及性暗示之服飾。\n※本遊戲為免費使用，遊戲內另提供購買虛擬遊戲幣，物品等付費服務。\n※請注意遊戲時間，避免沉迷。\n\n\n■ 官方網站與頻道 ■\n* 官方首頁：https://tw-odin.kakaogames.com/\n* 官方YouTube：https://www.youtube.com/channel/UCXelBqmb9mvGre1EzRwAQdg\n\n=================================================\n\n為了能夠順利執行《奧丁：神叛》，需要以下權限\n\n可選擇權限部分，即使不同意也可以使用遊戲，並且在同意使用權限後，可以重置或取消權限\n[可選]照片 : 畫面截圖以及錄影儲存、討論、1:1諮詢、註冊/變更個人頭像照片用權限請求\n[可選]麥克風 : 使用語音識別(STT)功能及音訊錄製的權限請求\n\n[如何設置相關權限]\n- 各使用權限取消方法 : 裝置設定 > 選擇隱私 > 選擇該使用權限 > 選擇接受或取消使用權限\n- 應用程式使用權限取消方法 : 裝置設定 > 選擇該應用程式 > 選擇接受或取消使用權限"
+    },
+    "im:price": {
+      "label": "取得",
+      "attributes": {
+        "amount": "0.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "應用程式"
+      }
+    },
+    "rights": {
+      "label": "© Kakao Games Corp."
+    },
+    "title": {
+      "label": "奧丁：神叛 - Kakao Games Corp."
+    },
+    "link": [{
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/%E5%A5%A7%E4%B8%81-%E7%A5%9E%E5%8F%9B/id1582983486?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "預覽",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c4/ef/87/c4ef8723-bb8f-fda5-6a91-4ddc2767c34b/f1f15b00-7c99-473a-9f5d-59d43148700d_ODIN_221104_iOS_2732X2048_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/%E5%A5%A7%E4%B8%81-%E7%A5%9E%E5%8F%9B/id1582983486?uo=2",
+      "attributes": {
+        "im:id": "1582983486",
+        "im:bundleId": "com.kakaogames.twodin"
+      }
+    },
+    "im:artist": {
+      "label": "Kakao Games Corp.",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/kakao-games-corp/id1002306740?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://apps.apple.com/hk/genre/ios-%E9%81%8A%E6%88%B2/id6014?uo=2",
+        "label": "遊戲"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-27T00:00:00-07:00",
+      "attributes": {
+        "label": "2022年03月27日"
+      }
+    }
+  }
+]
