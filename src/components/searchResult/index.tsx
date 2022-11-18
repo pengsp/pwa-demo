@@ -15,7 +15,7 @@ function SearchResult({ data, keywords }: SearchResultProps) {
     }
     {
       data.map((app: Record<string, any>, index: number) => {
-        return <div className="rankings-app" key={`search-result-${app.id.attributes["im:id"]}`}>
+        return <div className="rankings-app" key={`search-result-${app.id.attributes["im:id"]}`} role="search-result-app">
           <div className="app-rank">{index + 1}</div>
           <div className="app-icon">
             <LazyLoad placeholder={<Spin />} >
