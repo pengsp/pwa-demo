@@ -21,6 +21,16 @@ DEMO地址：<a href="https://api.coolfish.cn">https://api.coolfish.cn</a>（推
   ```
 打开浏览器访问 <a href="http://localhost:3000">http://localhost:3000</a>
 
+### 打包
+```
+yarn build
+```
+
+### 测试用例
+```
+yarn test
+```
+
 ---
 
 
